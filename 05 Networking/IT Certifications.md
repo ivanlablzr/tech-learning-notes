@@ -17,8 +17,6 @@ A map of industry certifications by career track — the networking ladder in de
 
 > Study the way pros do: a course/book (Jeremy's IT Lab for CCNA, *Network Warrior*) → hands-on labs (**Packet Tracer / GNS3 / containerlab**) → practice exams. Theory without configuration doesn't stick
 
-GRC Mastery -> HTB CPTS/OSCP -> Dante/Zephyr HTB -> HTB CDSA/CySA+/Security+ -> AI certs/courses (AWS AI, Azure AI, Anthropic AI, ISACA AAIA, AI security) -> Cloud (AWS/Azure) -> GHIC -> CRTO -> OSEP -> SANS Purple Team Operations Certificate -> GFCA and GFCA -> CISSP
-
 ## Certifications by track
 
 - **Networking:** CCNA → CCNP → CCIE (vendor-neutral alt: CompTIA Network+).
@@ -29,6 +27,10 @@ GRC Mastery -> HTB CPTS/OSCP -> Dante/Zephyr HTB -> HTB CDSA/CySA+/Security+ -> 
 - **DevOps:** AWS/Azure/GCP DevOps Engineer.
 - **Data / AI:** Google Data Engineer, IBM Data Science; Azure AI Engineer; **AI auditing** (ISACA AAIA — emerging, high-demand).
 - **Governance / management:** **CISSP** (governance), CISM (management), CISA (audit), ISO 27001.
+
+
+> **My Choice**: GRC Mastery -> HTB CPTS/OSCP -> Dante/Zephyr HTB -> HTB CDSA/CySA+/Security+ -> AI certs/courses (AWS AI, Azure AI, Anthropic AI, ISACA AAIA, AI security) -> Cloud (AWS/Azure) -> GHIC -> CRTO -> OSEP -> SANS Purple Team Operations Certificate -> GFCA and GFCA -> CISSP
+
 
 ## Practice & resources
 
