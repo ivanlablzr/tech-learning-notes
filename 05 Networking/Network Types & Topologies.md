@@ -22,7 +22,7 @@ From the body outward:
 | **WAN / WWAN** | country/continent | leased lines, MPLS, **SD-WAN**, cellular, satellite |
 | **GAN** | global | submarine cables, the Internet |
 
-**The scale ladder** (who controls what): space/aerial (satellite **DTN**, aviation, quantum) → world-level (**[[Internet & Infrastructure|ASes, ISPs, IXPs, CDNs]]**; surface/deep/dark web; V2X automotive, cellular RAN) → building (cloud/datacenter, industrial OT with Modbus/OPC-UA/Profinet, campus) → individual (HAN, PAN) → molecular (BAN, nano). Specialized/ad-hoc forms like **MANET** (self-configuring mesh — Meshtastic) and blockchain networks cut across scales.
+**The scale ladder** (who controls what): space/aerial (satellite **DTN**, aviation, quantum) → world-level (**[[Network Infrastructure|ASes, ISPs, IXPs, CDNs]]**; surface/deep/dark web; V2X automotive, cellular RAN) → building (cloud/datacenter, industrial OT with Modbus/OPC-UA/Profinet, campus) → individual (HAN, PAN) → molecular (BAN, nano). Specialized/ad-hoc forms like **MANET** (self-configuring mesh — Meshtastic) and blockchain networks cut across scales.
 
 **WAN delivery** splits into **private circuits** (leased line/T-carrier, MPLS, Metro Ethernet, dark fiber, direct cloud connect — dedicated, costly) vs **public Internet circuits** (broadband DSL/cable/fiber, SD-WAN, cellular, **LPWAN** for IoT: LoRaWAN/NB-IoT/LTE-M — shared, cheap). MPLS vs SD-WAN is the current corporate rivalry.
 
@@ -56,4 +56,4 @@ Wi-Fi security stacks **encryption + authentication + integrity**, negotiated in
 
 A **VPN** encrypts traffic across a public network. Architectures: **client-to-site** (remote access — gateway + client), **site-to-site** (router/firewall gateways linking offices), **clientless/web** (SSL portal to internal apps), **peer-to-peer mesh** (e.g. Tailscale with NAT traversal). Protocols: **WireGuard**/OpenVPN (L4), **IPsec/IKEv2** (L3, site-to-site), SSL/TLS (web); legacy PPTP (broken) and L2TP (no native crypto) are dead. **ZTNA** (Zero-Trust Network Access, L7) is the modern enterprise successor — per-application access instead of full-network tunnels. Crypto detail in [[Data Encryption|VPN Encryption]].
 
-Related: [[Network Foundations]] · [[Network Media & Links]] · [[Internet & Infrastructure]] · [[Wireless & Cellular]] · [[05 Networking|domain overview]]
+Related: [[Network Foundations]] · [[Network Media & Links]] · [[Network Infrastructure]] · [[Wireless & Cellular]] · [[05 Networking|domain overview]]

@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, southern-europe, balkans]
 ---
 
 
-RIR: **RIPE NCC**. The Mediterranean rim and the Balkans — defined by **cable landing hubs** (the gateway between Europe and Africa/Asia) and, in the Balkans, by a few foreign carrier groups owning almost everything. (Part of [[Internet & Infrastructure]].)
+RIR: **RIPE NCC**. The Mediterranean rim and the Balkans — defined by **cable landing hubs** (the gateway between Europe and Africa/Asia) and, in the Balkans, by a few foreign carrier groups owning almost everything. (Part of [[Network Infrastructure]].)
 
 ## Mediterranean cable hubs
 
@@ -45,4 +45,4 @@ State telcos persist: **Telekom Srbija** (Serbia ~58%), **Telekom Slovenije** (~
 
 **Geopolitical flashpoints:** **Serbia** — EU candidate but close to Russia/China, hosts Huawei "Safe City" surveillance under BRI and hasn't joined Russia sanctions. **Kosovo** — no UN recognition, complex IP/ccTLD situation (informal .xk). **Cyprus** — divided (the North on Türk Telekom), an eastern-Med cable node, and a financial hub with governance concerns. **Malta** — a "Blockchain Island"/iGaming data hub. **Montenegro** — its **.me** ccTLD is a global money-spinner.
 
-Related: [[Internet & Infrastructure]] · [[Western-Europe Digital Infrastructure]] · [[Eastern-Europe Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Western-Europe Digital Infrastructure]] · [[Eastern-Europe Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]

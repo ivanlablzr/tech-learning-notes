@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, sub-saharan-africa]
 ---
 
 
-RIR: **AFRINIC**. ~50 countries, mobile-first, and **cable-led** — international capacity has grown ~100× since 2010 while last-mile, power, and neutral exchanges lag. The story is a few hub nations, a handful of pan-African operators, and the transformational **2Africa** cable. (Part of [[Internet & Infrastructure]].)
+RIR: **AFRINIC**. ~50 countries, mobile-first, and **cable-led** — international capacity has grown ~100× since 2010 while last-mile, power, and neutral exchanges lag. The story is a few hub nations, a handful of pan-African operators, and the transformational **2Africa** cable. (Part of [[Network Infrastructure]].)
 
 ## The hub nations
 
@@ -36,4 +36,4 @@ Shutdowns are a regional signature. **Ethiopia** held the **Tigray region offlin
 
 Despite progress, the divide is stark: SSA median mobile speed ~22 Mbps (vs ~72 global), fixed ~14 Mbps (vs ~84); **~25 of ~50 nations have no neutral IXP**; only **2 countries host a hyperscaler cloud region**; cable capacity per capita is ~**1:40 vs Europe**. Bright spot: **Cloudflare's** aggressive edge expansion puts ~65% of the population within 50 ms of a CDN PoP. Connectivity tiers: **hub** (South Africa, Nigeria, Kenya) → regional (Ghana, Senegal, Côte d'Ivoire, Tanzania) → developing (Uganda, Rwanda, Angola, Zambia) → minimal (DRC, much of Central Africa) → crisis (Somalia, South Sudan, CAR).
 
-Related: [[Internet & Infrastructure]] · [[North-Africa Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[North-Africa Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]

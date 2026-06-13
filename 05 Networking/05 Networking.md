@@ -7,20 +7,21 @@ How independent machines communicate — from electromagnetic fields with antenn
 
 ## Domain notes
 
-| Note | Covers |
-|---|---|
-| [[Network Foundations]] | What a network is, data/signaling, switching, cast types, topologies, protocols by layer |
-| [[OSI Layers & Protocols]] | The 7 layers, TCP/UDP, encapsulation, **DNS**, **HTTP** |
-| [[Network Devices]] | Nodes, NIC, MAC, **IP addressing & subnetting** |
-| [[Switching & Routing]] | Switches/VLANs/STP, routers, routing protocols, NAT, **SDN** |
-| [[Network Media & Links]] | Copper/fiber cabling, RF, Wi-Fi, IoT wireless |
-| [[Network Types & Topologies]] | LAN→WAN by scale, cabling, WLAN security, VPNs |
-| [[Internet & Infrastructure]] | ISPs, **ASes, BGP, IXPs, IANA/RIRs**; links to cables, carriers & 14 regional notes |
+| Note                                                                | Covers                                                                                                                                                                  |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Network Foundations]]                                             | What a network is, data/signaling, switching, cast types, topologies, protocols by layer                                                                                |
+| [[OSI Layers & Protocols]]                                          | The 7 layers, TCP/UDP, encapsulation, **DNS**, **HTTP**                                                                                                                 |
+| [[Network Devices]]                                                 | Nodes, NIC, MAC, **IP addressing & subnetting**                                                                                                                         |
+| [[Switching & Routing]]                                             | Switches/VLANs/STP, routers, routing protocols, NAT, **SDN**                                                                                                            |
+| [[Network Media & Links]]                                           | Copper/fiber cabling, RF, Wi-Fi, IoT wireless                                                                                                                           |
+| [[Network Types & Topologies]]                                      | LAN→WAN by scale, cabling, WLAN security, VPNs                                                                                                                          |
+| [[Network Infrastructure]]                                          | ISPs, **ASes, BGP, IXPs, IANA/RIRs**; links to cables, carriers & 14 regional notes                                                                                     |
 | [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] | the physical cables + who owns the carriers; plus 14 per-region deep-dives in [[Regional Infrastructure/North-America Digital Infrastructure\|Regional Infrastructure]] |
-| [[Wireless & Cellular]] | 2G–5G, SD-WAN |
-| [[Space & Satellite Networks]] | Orbits, satellite comms, DTN, constellations |
-| [[Network Performance & Resilience]] | Bandwidth/latency/jitter, resilience (STP/FHRP/BGP), DR, RAID |
-| [[IT Certifications]] | The Cisco ladder + cross-domain cert map |
+| [[Wireless & Cellular]]                                             | 2G–5G, SD-WAN                                                                                                                                                           |
+| [[Space & Satellite Networks]]                                      | Orbits, satellite comms, DTN, constellations                                                                                                                            |
+| [[Network Performance & Resilience]]                                | Bandwidth/latency/jitter, resilience (STP/FHRP/BGP), DR, RAID                                                                                                           |
+| [[IT Certifications]]                                               | The Cisco ladder + cross-domain cert map                                                                                                                                |
+| [[AI-assisted Networking]]                                          | AI automated management, monitoring, and security of IT infrastructures                                                                                                 |
 
 ## The five views
 

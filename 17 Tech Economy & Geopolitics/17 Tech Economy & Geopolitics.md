@@ -8,7 +8,7 @@ How technology creates and captures value — and how that value became the cent
 > [!question] The five questions
 > **Why it exists:** technology is now ~17% of world GDP and the commanding heights of the economy; understanding *who profits where* and *who controls what* explains modern markets and statecraft.
 > **Problem it solves:** turns the technical stack ([[03 Computer Hardware]], [[14 AI]], [[09 Cloud]], [[05 Networking]]) into an economic and political map.
-> **Depends on:** [[03 Computer Hardware#Overview|semiconductors]], [[14 AI]], [[09 Cloud]], [[Internet & Infrastructure]].
+> **Depends on:** [[03 Computer Hardware#Overview|semiconductors]], [[14 AI]], [[09 Cloud]], [[Network Infrastructure]].
 > **Depended on by:** real-world decisions — investment, policy, supply-chain risk, career strategy.
 > **Interactions:** value chain → market structure → state power → back to the chain (subsidies, controls).
 
@@ -42,4 +42,4 @@ How technology creates and captures value — and how that value became the cent
 
 This domain reads the technical stack as an economy: [[Semiconductor Economics]] ↔ [[03 Computer Hardware]]; [[Cloud, Data & AI Economics]] ↔ [[09 Cloud]] + [[14 AI]]; the geopolitics notes ↔ the [[Regional Infrastructure/North-America Digital Infrastructure|regional infrastructure]], [[Submarine Cables]], and [[State-Owned & Government-Linked Carriers]] notes.
 
-Related: [[03 Computer Hardware]] · [[14 AI]] · [[09 Cloud]] · [[Internet & Infrastructure]] · [[Home]]
+Related: [[03 Computer Hardware]] · [[14 AI]] · [[09 Cloud]] · [[Network Infrastructure]] · [[Home]]

@@ -64,4 +64,4 @@ The trajectory is a **partial fragmentation of the global tech order into three 
 
 Most other countries pick and mix, or get pulled into one orbit (via Huawei gear, cloud regions, cables, or rules). The open question of the decade: **does the internet/tech economy stay one interoperable system, or split into walled blocs** — and what that costs in growth, security, and freedom.
 
-Related: [[17 Tech Economy & Geopolitics|domain overview]] · [[US-China Tech War & Export Controls]] · [[The Platform & Digital Economy]] · [[Semiconductor Economics]] · [[Internet & Infrastructure#8. Geopolitics|internet geopolitics]] · [[State-Owned & Government-Linked Carriers]]
+Related: [[17 Tech Economy & Geopolitics|domain overview]] · [[US-China Tech War & Export Controls]] · [[The Platform & Digital Economy]] · [[Semiconductor Economics]] · [[Network Infrastructure#8. Geopolitics|internet geopolitics]] · [[State-Owned & Government-Linked Carriers]]

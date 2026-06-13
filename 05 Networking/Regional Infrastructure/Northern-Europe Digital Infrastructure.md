@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, nordic-baltic]
 ---
 
 
-RIR: **RIPE NCC**. The **Nordic-Baltic** region: the world's highest internet/fiber penetration (~97% / ~75% FTTH), the cheapest green electricity in Europe, and a magnet for hyperscale data centers. (Part of [[Internet & Infrastructure]].)
+RIR: **RIPE NCC**. The **Nordic-Baltic** region: the world's highest internet/fiber penetration (~97% / ~75% FTTH), the cheapest green electricity in Europe, and a magnet for hyperscale data centers. (Part of [[Network Infrastructure]].)
 
 ## The regional backbone
 
@@ -35,4 +35,4 @@ One carrier dominates the spine: **Telia** (AS1299, a Tier-1 backbone; Swedish s
 - **Latvia** (~95%): **Tet** (Latvian state ~51% / Telia ~49%) — a telling case of Swedish-state-linked Telia owning half a Latvian state telco.
 - **Lithuania** (~93%): Telia, Bite, Tele2; a vocal Huawei-ban advocate. After blocking Kaliningrad rail transit (2022), Russia threatened to sever Lithuanian fiber (routed through Kaliningrad), prompting rerouting via Latvia/Estonia/Poland.
 
-Related: [[Internet & Infrastructure]] · [[Western-Europe Digital Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Western-Europe Digital Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]

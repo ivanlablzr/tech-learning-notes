@@ -31,4 +31,4 @@ SD-WAN applies [[Switching & Routing|SDN]] to the WAN: decouple the **control pl
 
 **Trade-offs:** cloud-hosted management depends on internet reachability (data plane keeps forwarding on last-known policy), proprietary vendor lock-in, and broadband variability it can route around but not magically fix.
 
-Related: [[Network Types & Topologies]] · [[Switching & Routing]] · [[Internet & Infrastructure]] · [[09 Cloud]] · [[05 Networking|domain overview]]
+Related: [[Network Types & Topologies]] · [[Switching & Routing]] · [[Network Infrastructure]] · [[09 Cloud]] · [[05 Networking|domain overview]]

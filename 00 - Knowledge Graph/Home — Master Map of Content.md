@@ -11,7 +11,7 @@ This vault is a **knowledge graph for understanding modern computing from first 
 
 ## Start here
 
-- ⭐ **[[Master Roadmap — Secure AI, Cloud & Offensive Expert → Consultant → Founder|Master Roadmap]]** — the single path to follow: secure AI/cloud/red-team expert → consultant → founder
+- ⭐ **[[Cyber Roadmap|Master Roadmap]]** — the single path to follow: secure AI/cloud/red-team expert → consultant → founder
 - 📋 **[[Roadmap Kanban]]** — your daily board: wake up, pull the top card from "This Week", go
 - [[Analysis & Gaps#Foundation Analysis]] — what was inconsistent, overlapping, or missing in the source docs
 - [[Knowledge Graph#Domain Dependency Graph]] — the backbone chains (Physics → … → Platform Engineering)

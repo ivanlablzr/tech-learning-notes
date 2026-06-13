@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, southeast-asia]
 ---
 
 
-RIR: **APNIC**. Anchored by **Singapore** — the world's #2 cable hub and APAC's peering/cloud capital — and ranging from open city-states to some of Asia's most aggressive internet-centralization moves. (Part of [[Internet & Infrastructure]].)
+RIR: **APNIC**. Anchored by **Singapore** — the world's #2 cable hub and APAC's peering/cloud capital — and ranging from open city-states to some of Asia's most aggressive internet-centralization moves. (Part of [[Network Infrastructure]].)
 
 ## Singapore — the APAC hub
 
@@ -31,4 +31,4 @@ Penetration ~79%; **VNPT/MIC**. Dominated by **Viettel** (AS7552, owned by the *
 - **Myanmar** (~53%, declining): after the **Feb 2021 coup**, the junta imposed **weeks of nationwide shutdown** + months of nightly curfews and Facebook blocks; **Telenor and Ooredoo exited** rather than install junta-mandated backdoors (Telenor sold cheap to M1 Group). Military-linked **Mytel** (Viettel 49%) profits.
 - **Laos** (~45%): state-dominated, China-aligned; **Brunei** (~95%): wealthy, state-run AITI; **Timor-Leste** (~35%): tiny, Viettel-served.
 
-Related: [[Internet & Infrastructure]] · [[East-Asia Digital Infrastructure]] · [[South-Asia Digital Infrastructure]] · [[Oceania Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[East-Asia Digital Infrastructure]] · [[South-Asia Digital Infrastructure]] · [[Oceania Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]

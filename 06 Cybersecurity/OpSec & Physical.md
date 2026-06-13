@@ -56,4 +56,4 @@ Identifying and protecting information that an adversary could piece together ag
 
 > **Network surveillance** context: governments, corporations, and criminals monitor internet traffic for control, threat detection, and investigation (CALEA, Total Information Awareness) — the adversary capability OPSEC defends against.
 
-Related: [[06 Cybersecurity|domain overview]] · [[Ethical Hacking#2. The methodology|red-team methodology]] · [[Cybersecurity Foundations#1. What security is|human-layer in the stack]] · [[Information Security & Access#5. Privacy, compliance & governance|privacy]] · [[Endpoint Security#4. Hardware security — the root of trust|hardware security]]
+Related: [[06 Cybersecurity|domain overview]] · [[Engagement & Methodology#3. The methodology|red-team methodology]] · [[Cybersecurity Foundations#1. What security is|human-layer in the stack]] · [[Information Security & Access#5. Privacy, compliance & governance|privacy]] · [[Endpoint Security#4. Hardware security — the root of trust|hardware security]]

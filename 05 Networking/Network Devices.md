@@ -42,4 +42,4 @@ Legacy classes A/B/C (now superseded by **CIDR**). Public addresses flow **IANA 
 
 **IPv6** (128-bit, 3.4×10³⁸ — effectively unlimited): hex hextets `2001:0db8:…`, compressed with `::` for all-zero groups; features **SLAAC** (stateless autoconfig), **EUI-64**, and **NDP** (replaces ARP). Adoption ~45% of Google traffic. **NAT** translates private↔public IPv4 at the network edge (and conserves addresses).
 
-Related: [[Network Foundations]] · [[Switching & Routing]] · [[OSI Layers & Protocols]] · [[Internet & Infrastructure]] · [[05 Networking|domain overview]]
+Related: [[Network Foundations]] · [[Switching & Routing]] · [[OSI Layers & Protocols]] · [[Network Infrastructure]] · [[05 Networking|domain overview]]

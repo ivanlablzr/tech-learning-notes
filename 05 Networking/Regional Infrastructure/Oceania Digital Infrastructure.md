@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, oceania, pacific]
 ---
 
 
-RIR: **APNIC**. Two advanced, geographically-isolated economies (Australia, New Zealand) plus a scatter of Pacific island nations whose connectivity is shaped by **cable subsidy and US–China geopolitics** — and increasingly rescued by Starlink. (Part of [[Internet & Infrastructure]].)
+RIR: **APNIC**. Two advanced, geographically-isolated economies (Australia, New Zealand) plus a scatter of Pacific island nations whose connectivity is shaped by **cable subsidy and US–China geopolitics** — and increasingly rescued by Starlink. (Part of [[Network Infrastructure]].)
 
 ## Australia
 
@@ -27,4 +27,4 @@ For tiny, ocean-dispersed nations, a single cable is the lifeline — and a geop
 
 Connectivity tiers: **advanced** (Australia, NZ — multiple cloud regions, dense IXs, 10+ cables) → improving (PNG, Samoa, Tonga, Solomons — post-2015 cables) → **satellite-dependent** (Kiribati, Tuvalu, Wallis & Futuna, most outer atolls).
 
-Related: [[Internet & Infrastructure]] · [[Southeast-Asia Digital Infrastructure]] · [[Space & Satellite Networks]] · [[Submarine Cables]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Southeast-Asia Digital Infrastructure]] · [[Space & Satellite Networks]] · [[Submarine Cables]] · [[05 Networking|domain overview]]

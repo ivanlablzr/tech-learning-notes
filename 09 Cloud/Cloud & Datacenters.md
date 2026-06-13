@@ -12,11 +12,11 @@ Cloud shifts IT from **CapEx** (buy hardware) to **OpEx** (pay for what you use)
 
 **Service models (SPI)** — each shifts more management to the provider:
 
-| Model | You manage | Examples |
-|---|---|---|
-| **IaaS** | OS, runtime, data, apps | EC2, Azure VMs, GCE |
-| **PaaS** | app code + config | Elastic Beanstalk, Heroku, App Engine |
-| **SaaS** | just your settings/data | Microsoft 365, Salesforce, Dropbox |
+| Model    | You manage              | Examples                              |
+| -------- | ----------------------- | ------------------------------------- |
+| **IaaS** | OS, runtime, data, apps | EC2, Azure VMs, GCE                   |
+| **PaaS** | app code + config       | Elastic Beanstalk, Heroku, App Engine |
+| **SaaS** | just your settings/data | Microsoft 365, Salesforce, Dropbox    |
 
 Compute options span **VMs**, **bare metal**, and **serverless** (Lambda/Functions — event-driven microservices, no server management).
 
@@ -65,4 +65,4 @@ Datacenters house **servers, storage, and switching** plus power and cooling. Mo
 - **Underlay vs overlay:** the underlay is the physical switches + routing (OSPF/BGP); the **overlay** is a virtual network tunneled on top (**VXLAN**, WireGuard) — how multi-tenant cloud networking and container fabrics isolate traffic.
 - Operators: Equinix, Digital Realty, NTT, CyrusOne, Vantage (colocation/wholesale).
 
-Related: [[09 Cloud|domain overview]] · [[03 Computer Hardware]] · [[Internet & Infrastructure]] · [[Switching & Routing]] · [[10 DevOps]] · [[IAM]]
+Related: [[09 Cloud|domain overview]] · [[03 Computer Hardware]] · [[Network Infrastructure]] · [[Switching & Routing]] · [[10 DevOps]] · [[IAM]]

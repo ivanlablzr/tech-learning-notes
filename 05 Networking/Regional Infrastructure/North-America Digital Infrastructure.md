@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, north-america]
 ---
 
 
-RIR: **ARIN**. The single most important node in global internet infrastructure — most of the world's largest CDNs, clouds, IXPs, and Tier-1 backbones originate here. (Part of [[Internet & Infrastructure]]; see also [[Submarine Cables]], [[State-Owned & Government-Linked Carriers]].)
+RIR: **ARIN**. The single most important node in global internet infrastructure — most of the world's largest CDNs, clouds, IXPs, and Tier-1 backbones originate here. (Part of [[Network Infrastructure]]; see also [[Submarine Cables]], [[State-Owned & Government-Linked Carriers]].)
 
 ## United States
 
@@ -41,4 +41,4 @@ Penetration ~94%; regulator **CRTC**. IXPs: **TorIX** (Toronto, ~800 Gbps), VANI
 
 Penetration ~78%; regulator **IFT**. IXPs in Mexico City (MEXIX/KIO, Uninet IX). The market is defined by **Carlos Slim's América Móvil** — **Telmex/Uninet** (AS8151, ~65% fixed broadband) + Telcel (~70% mobile); IFT declared Telmex a "dominant operator" (2014) under asymmetric regulation. Competitors: Megacable, Totalplay, Izzi (Televisa), Axtel, AT&T Mexico. DCs via Equinix and KIO Networks; **AWS Mexico (Central) region announced 2024**. Cable landings on both coasts (Pacific near Mazatlán, Caribbean near Cancún); ~40% of traffic transits the US via border crossings (San Antonio, El Paso, Tijuana). Notably **has not banned Huawei** despite US pressure.
 
-Related: [[Internet & Infrastructure]] · [[Latin-America Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Latin-America Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]

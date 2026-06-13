@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, western-europe]
 ---
 
 
-RIR: **RIPE NCC**. Home to the **"FLAP-D" core** — Frankfurt, London, Amsterdam, Paris + Dublin — the continent's internet centre of gravity, with the world's two busiest IXPs and most US-tech EU headquarters. (Part of [[Internet & Infrastructure]].)
+RIR: **RIPE NCC**. Home to the **"FLAP-D" core** — Frankfurt, London, Amsterdam, Paris + Dublin — the continent's internet centre of gravity, with the world's two busiest IXPs and most US-tech EU headquarters. (Part of [[Network Infrastructure]].)
 
 ## The FLAP-D hubs
 
@@ -40,4 +40,4 @@ Penetration ~94%; regulator **ARCEP**, watchdog **CNIL** (aggressive — fined G
 - **Austria** (~95%, RTR): **A1/Telekom Austria** (América Móvil ~51%, state ~28%) — notable as the **backbone operator across 8 CEE/Balkan countries**; VIX Vienna IXP.
 - **Ireland** (~95%, ComReg): disproportionately important as the **EU HQ hub for US tech**; **eir** (Iliad), Virgin, Sky; **AWS's first EU region (2007)**; Meta (Clonee), Apple (Athenry), Microsoft campuses. Its **DPC** is the lead EU regulator for all those firms — criticized as slow but issuing landmark fines (Meta €1.2B 2023, Instagram €405M, TikTok €345M).
 
-Related: [[Internet & Infrastructure]] · [[Northern-Europe Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Northern-Europe Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]

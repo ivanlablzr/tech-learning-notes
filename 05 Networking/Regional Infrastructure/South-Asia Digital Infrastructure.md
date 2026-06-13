@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, south-asia]
 ---
 
 
-RIR: **APNIC**. Dominated by **India** — which is both the regional infrastructure hub and the world leader in internet shutdowns — with every neighbour except Sri Lanka structurally dependent on Indian transit. (Part of [[Internet & Infrastructure]].)
+RIR: **APNIC**. Dominated by **India** — which is both the regional infrastructure hub and the world leader in internet shutdowns — with every neighbour except Sri Lanka structurally dependent on Indian transit. (Part of [[Network Infrastructure]].)
 
 ## India — the hub
 
@@ -30,4 +30,4 @@ Penetration ~65% but **~950M users (world's 2nd-largest internet population)**; 
 
 International cables land at Mumbai/Chennai → India's T1 ISPs → transit sold onward to Pakistan, Bangladesh, Nepal, Bhutan, Maldives, Afghanistan. **India theoretically controls its neighbours' international connectivity** (un-weaponized, but real leverage); only Sri Lanka is independent. 5G is live only in India (Oct 2022) and tiny Maldives/Sri Lanka pilots — Pakistan/Bangladesh haven't even auctioned spectrum.
 
-Related: [[Internet & Infrastructure]] · [[Southeast-Asia Digital Infrastructure]] · [[East-Asia Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Southeast-Asia Digital Infrastructure]] · [[East-Asia Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]

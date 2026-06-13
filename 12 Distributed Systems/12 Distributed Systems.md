@@ -33,7 +33,7 @@ See [[Knowledge Graph#Domain Dependency Graph]].
 
 Existing notes this domain connects to (wired into the knowledge graph):
 
-[[Programming Foundations#Peer-to-Peer (P2P)|Peer-to-Peer (P2P)]], [[Network Performance & Resilience|RAID]], [[Internet & Infrastructure|Autonomous Systems (ASes)]], [[Cloud & Datacenters|Datacenters]].
+[[Programming Foundations#Peer-to-Peer (P2P)|Peer-to-Peer (P2P)]], [[Network Performance & Resilience|RAID]], [[Network Infrastructure|Autonomous Systems (ASes)]], [[Cloud & Datacenters|Datacenters]].
 
 ## Learning Path
 

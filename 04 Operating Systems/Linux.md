@@ -3,7 +3,7 @@ type: note
 tags: [os, linux, sysadmin]
 ---
 
-
+Resources to learn linux: overthewire.org, hackthebox linux, Redhat certified system administrator - EX200
 
 A working model of Linux for administering, troubleshooting, and securing it. The unifying idea: **almost everything is a file or a process** — config is text under `/etc`, live state is exposed as files (`/proc`, `/sys`), and work is done by processes you can list, signal, and trace. Once that clicks, the system stops being a black box.
 

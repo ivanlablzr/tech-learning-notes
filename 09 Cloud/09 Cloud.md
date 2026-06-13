@@ -19,11 +19,11 @@ Renting and composing datacenter capacity as **programmable, on-demand services*
 ```
 Hardware + Networking + Security + Distributed → Cloud → (DevOps, Architecture, AI)
 ```
-The arc: **virtualization → VMs → cloud services → IaC → containers → orchestration → multi-account → multi-region → global platform.**
+The arc: **virtualization → VMs → cloud services → IaC (Terraform, AWS CDK, CloudFormation) → containers → orchestration → multi-account → multi-region → global platform.**
 
 **Sub-areas:** compute (VMs/containers/serverless), storage (object/block/file), networking (VPC, CIDR, peering/transit, private endpoints), identity (IAM/federation/SSO), governance (landing zones, organizations, SCP guardrails), and **FinOps** (cost/unit economics).
 
-**Learning path:** virtualization → compute → storage → cloud networking (VPC/CIDR) → **IAM** → automation (IaC/[[10 DevOps|Terraform]]) → multi-account governance → multi-region HA/DR → FinOps & a Well-Architected review lens.
+**Learning path:** virtualization → compute → storage → cloud networking (VPC/CIDR) → **IAM** → automation (IaC/[[10 DevOps|Terraform]], AWS CDK, CloudFormation) → multi-account governance → multi-region HA/DR → FinOps & a Well-Architected review lens.
 
 **Projects:** single-VPC web app (compute + storage + IAM + load balancer) → multi-account landing zone (L8) → multi-region resilient system (L9). See [[Learning Paths & Projects#Project Roadmap]].
 

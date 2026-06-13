@@ -24,7 +24,7 @@ A set of **practices + processes + tools** that replace slow, error-prone manual
 ```
 Programming + OS + Cloud → DevOps → (SRE, Platform Engineering)
 ```
-The arc: **version control → CI → CD → containers → Kubernetes → IaC → GitOps → observability → SRE → platforms.**
+The arc: **version control → CI → CD → containers → Kubernetes → IaC (Terraform, AWS CDK, CloudFormation) → GitOps → observability → SRE → platforms.**
 
 **Learning path:** Git internals & PR flow → CI → CD → containers (images/registries/runtimes) → **Kubernetes** (pods, services, ingress, config/secrets) → **IaC** (Terraform modules, state, plan/apply) → **GitOps** (ArgoCD/Flux) → observability (→ [[11 SRE]]).
 

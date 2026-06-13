@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, middle-east]
 ---
 
 
-RIR: **RIPE NCC**. The world's busiest transit corridor — nearly all Europe↔Asia cables funnel through the **Red Sea → Suez → Gulf** chokepoint — paired with wealthy state-controlled Gulf markets and war-shattered ones. (Part of [[Internet & Infrastructure]].)
+RIR: **RIPE NCC**. The world's busiest transit corridor — nearly all Europe↔Asia cables funnel through the **Red Sea → Suez → Gulf** chokepoint — paired with wealthy state-controlled Gulf markets and war-shattered ones. (Part of [[Network Infrastructure]].)
 
 ## The cable chokepoint
 
@@ -45,4 +45,4 @@ These Gulf telcos project regional power: **e&** operates in ~16 countries, **ST
 
 Free → not free: **Israel** (free) > Jordan/Lebanon/Iraq (partly free) > Turkey/Qatar/Kuwait/Bahrain/Oman (not free, VPN grey) > **UAE/Saudi** (VoIP blocked, business-only VPN) > **Iran/Syria** (very high blocking, VPN illegal). Pegasus-style surveillance is documented across several Gulf states (incl. the Khashoggi case).
 
-Related: [[Internet & Infrastructure]] · [[North-Africa Digital Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[North-Africa Digital Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]

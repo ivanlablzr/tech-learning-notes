@@ -73,7 +73,7 @@ The vault is organized into **numbered domain folders following the dependency g
 - [[Network Types & Topologies|Wide Area Networks (WANs)]]
 - [[Network Types & Topologies|Wireless Wide Area Networks (WWANs)]]
 - [[Network Types & Topologies|Storage Area Networks (SANs)]]
-- [[Internet & Infrastructure|Global Area Network (GAN)]]
+- [[Network Infrastructure|Global Area Network (GAN)]]
 - [[Wireless & Cellular|Cellular WAN]]
 - [[NFC Modules]]
 
@@ -86,7 +86,7 @@ The vault is organized into **numbered domain folders following the dependency g
 - [[Network Environment Levels - Organizational Scope]]
 - [[Intranet]]
 - [[Extranet]]
-- [[Internet & Infrastructure|Internet]]
+- [[Network Infrastructure|Internet]]
 
 **Network Design Frameworks**
 - [[Hierarchical network design frameworks]]
@@ -167,10 +167,10 @@ The vault is organized into **numbered domain folders following the dependency g
 - [[Wireless & Cellular|Public Switched Telephone Network (PSTN)]]
 
 **Internet Infrastructure**
-- [[Internet & Infrastructure|Internet]]
-- [[Internet & Infrastructure|Internet Service Provider (ISP)]]
-- [[Internet & Infrastructure|Internet Exchange Points (IXPs)]]
-- [[Internet & Infrastructure|Autonomous Systems (ASes)]]
+- [[Network Infrastructure|Internet]]
+- [[Network Infrastructure|Internet Service Provider (ISP)]]
+- [[Network Infrastructure|Internet Exchange Points (IXPs)]]
+- [[Network Infrastructure|Autonomous Systems (ASes)]]
 - [[Cloud & Datacenters|Datacenters]]
 
 **Cloud Networking**

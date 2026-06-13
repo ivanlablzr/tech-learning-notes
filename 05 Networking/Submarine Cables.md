@@ -4,7 +4,7 @@ tags: [networking, infrastructure, submarine-cables]
 ---
 
 
-~**99% of intercontinental internet traffic** rides submarine fiber (satellites carry <1%). As of 2024 there are ~600 active or planned systems. They are the physical substrate of [[Internet & Infrastructure]] and an increasingly strategic vulnerability.
+~**99% of intercontinental internet traffic** rides submarine fiber (satellites carry <1%). As of 2024 there are ~600 active or planned systems. They are the physical substrate of [[Network Infrastructure]] and an increasingly strategic vulnerability.
 
 ## How they work
 
@@ -68,4 +68,4 @@ Private investment flipped cable economics after 2016 — **~70% of new cable ca
 
 **Landing-station security** is treated as critical national infrastructure: US CFIUS/Team Telecom reviews, UK Telecoms Security Act 2021, France's "Operator of Vital Importance" designation. The 2020 FCC rejection of Pacific Light's HK landing and Australia's Coral Sea Cable are the template decisions.
 
-Related: [[Internet & Infrastructure]] · [[State-Owned & Government-Linked Carriers]] · [[Space & Satellite Networks]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[State-Owned & Government-Linked Carriers]] · [[Space & Satellite Networks]] · [[05 Networking|domain overview]]

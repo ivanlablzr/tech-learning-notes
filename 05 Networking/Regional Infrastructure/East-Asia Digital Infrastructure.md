@@ -5,7 +5,7 @@ tags: [networking, infrastructure, regional, east-asia, china]
 
 
 
-RIR: **APNIC**. Home to the world's largest user base and its most sophisticated censorship system (China), alongside dense, advanced hubs (Japan, Korea, Taiwan, Hong Kong). The defining feature is the **partial decoupling of the Chinese internet** from the global one. (Part of [[Internet & Infrastructure]].)
+RIR: **APNIC**. Home to the world's largest user base and its most sophisticated censorship system (China), alongside dense, advanced hubs (Japan, Korea, Taiwan, Hong Kong). The defining feature is the **partial decoupling of the Chinese internet** from the global one. (Part of [[Network Infrastructure]].)
 
 ## China — a parallel internet
 
@@ -33,4 +33,4 @@ Penetration ~95%; regulator **MIC**. **NTT Communications** (AS2914) is a genuin
 
 > **Systemic risk:** with 1B+ users behind the GFW and China promoting an alternative governance model, a deeper China decoupling is the single biggest fragmentation risk to the global internet.
 
-Related: [[Internet & Infrastructure]] · [[Southeast-Asia Digital Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Southeast-Asia Digital Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]

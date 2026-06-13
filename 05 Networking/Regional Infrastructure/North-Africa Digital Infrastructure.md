@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, north-africa]
 ---
 
 
-RIR: **RIPE NCC** (a quirk — North Africa is administered by the European registry, not AFRINIC). The region is dominated by one fact — **Egypt's Suez chokepoint** — alongside heavy state control and chronic under-provisioning by hyperscalers. (Part of [[Internet & Infrastructure]].)
+RIR: **RIPE NCC** (a quirk — North Africa is administered by the European registry, not AFRINIC). The region is dominated by one fact — **Egypt's Suez chokepoint** — alongside heavy state control and chronic under-provisioning by hyperscalers. (Part of [[Network Infrastructure]].)
 
 ## Egypt — the global chokepoint
 
@@ -30,4 +30,4 @@ Egypt also demonstrated the **kill switch**: during the 2011 Arab Spring it exec
 
 North Africa is **badly underserved by cloud**: **no AWS or Azure region anywhere** in the region (nearest are the Gulf or Europe), and Google/Microsoft only run edge caches. Cloud-native workloads pay **+60–120 ms** latency, a real handicap for the regional tech ecosystem. State control runs from chokepoint-monopoly (Egypt, Algeria) → high (Sudan) → moderate (Morocco, Tunisia) → low (Mauritania) → fragmented/war (Libya).
 
-Related: [[Internet & Infrastructure]] · [[Middle-East Digital Infrastructure]] · [[Sub-Saharan-Africa Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Middle-East Digital Infrastructure]] · [[Sub-Saharan-Africa Digital Infrastructure]] · [[Submarine Cables]] · [[05 Networking|domain overview]]

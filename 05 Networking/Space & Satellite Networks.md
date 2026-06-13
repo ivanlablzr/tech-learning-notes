@@ -72,4 +72,4 @@ Standard TCP/IP fails in space (minute-long RTTs break timeouts; links are inter
 
 **Defenses:** mandatory encrypted + authenticated command links, frequency-hopping/spread-spectrum (anti-jam), anomaly monitoring, hardened ground stations, anti-spoof (dual-frequency, signal authentication). **Emerging:** in-orbit servicing (Northrop MEV), **debris/Kessler syndrome** mitigation (FCC 5-year deorbit rule, active removal).
 
-Related: [[Network Foundations]] · [[Network Media & Links]] · [[Wireless & Cellular]] · [[Internet & Infrastructure]] · [[05 Networking|domain overview]]
+Related: [[Network Foundations]] · [[Network Media & Links]] · [[Wireless & Cellular]] · [[Network Infrastructure]] · [[05 Networking|domain overview]]

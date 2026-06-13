@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, latin-america]
 ---
 
 
-RIR: **LACNIC**. The market is shaped less by individual countries than by a handful of **transnational carrier groups** (below), with **Brazil** as the regional hub. (Part of [[Internet & Infrastructure]].)
+RIR: **LACNIC**. The market is shaped less by individual countries than by a handful of **transnational carrier groups** (below), with **Brazil** as the regional hub. (Part of [[Network Infrastructure]].)
 
 ## The carrier groups that define the region
 
@@ -40,4 +40,4 @@ Penetration ~84%, ~180M users (5th-largest market globally); regulator **ANATEL*
 
 Caribbean connectivity runs on **Liberty Latin America (Flow)** and **Digicel**, plus state telcos (TSTT Trinidad 51%, BTC Bahamas 51%, SETAR Aruba); Haiti has the region's weakest connectivity. Cables: ARCOS, Americas-II, AMX-1, CBUS. In **Central America**, **Tigo** and **Claro** dominate, with state holdouts (ICE Costa Rica, Hondutel, BTL Belize). **Panama** is the regional transit hub — dollar economy, stable governance, regional PoPs for Lumen/Cogent/AWS, and Google's **Curie** transits it linking North and South America.
 
-Related: [[Internet & Infrastructure]] · [[North-America Digital Infrastructure]] · [[State-Owned & Government-Linked Carriers]] · [[Submarine Cables]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[North-America Digital Infrastructure]] · [[State-Owned & Government-Linked Carriers]] · [[Submarine Cables]] · [[05 Networking|domain overview]]

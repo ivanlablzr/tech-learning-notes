@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, russia, central-asia]
 ---
 
 
-RIR: **RIPE NCC**. Russia + the post-Soviet states — the region defined by **state control of the internet** (the world's most sophisticated outside China) and, since 2022, accelerating **decoupling** from the global internet. (Part of [[Internet & Infrastructure]].)
+RIR: **RIPE NCC**. Russia + the post-Soviet states — the region defined by **state control of the internet** (the world's most sophisticated outside China) and, since 2022, accelerating **decoupling** from the global internet. (Part of [[Network Infrastructure]].)
 
 ## Russia
 
@@ -41,4 +41,4 @@ The international gateway is almost always a single state carrier, making filter
 
 **Ownership groups:** **VEON** (Dutch-listed, ex-Russian Alfa; Beeline across Russia/Ukraine/Kazakhstan/Uzbekistan/Armenia/Georgia — Fridman divested amid sanctions), **MTS/Sistema** (Russia, Belarus, Armenia), **Turkcell** (Azerbaijan, Belarus, Georgia), **Rostelecom** (Russia + CIS wholesale). The net post-2022 trend is **CIS states (Kazakhstan, Armenia, Georgia) seeking EU-aligned connectivity** away from Russia.
 
-Related: [[Internet & Infrastructure]] · [[Eastern-Europe Digital Infrastructure]] · [[Middle-East Digital Infrastructure]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Eastern-Europe Digital Infrastructure]] · [[Middle-East Digital Infrastructure]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]

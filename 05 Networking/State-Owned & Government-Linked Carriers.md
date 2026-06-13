@@ -4,7 +4,7 @@ tags: [networking, infrastructure, governance, carriers]
 ---
 
 
-A carrier is "state-owned" when a government holds a controlling or significant stake — directly or via a sovereign wealth fund / state holding company. This matters because it shapes **pricing, censorship capability, lawful-intercept compliance, and geopolitical leverage** over international routing. (Context: [[Internet & Infrastructure]], [[Submarine Cables]].)
+A carrier is "state-owned" when a government holds a controlling or significant stake — directly or via a sovereign wealth fund / state holding company. This matters because it shapes **pricing, censorship capability, lawful-intercept compliance, and geopolitical leverage** over international routing. (Context: [[Network Infrastructure]], [[Submarine Cables]].)
 
 ## Fully state-owned (≈100%)
 
@@ -76,4 +76,4 @@ A government that owns the major carrier gains built-in **lawful intercept**, na
 
 Many Tier-1/2 ISPs began as state **PTT** monopolies privatized 1984–2010 — **BT** (1984, the first), then partial IPOs keeping a state stake (**NTT** 33%, **DT** 32%, **Orange** 23%, **Telstra** 1997–2006 full, **Telkom SA** ~40%), and full sales (Telefónica, Telecom Italia, **Tata/VSNL** 2002, KT 2002, PTCL→Etisalat 2006).
 
-Related: [[Internet & Infrastructure]] · [[Submarine Cables]] · [[Internet & Infrastructure#4. Governance — who hands out the numbers|internet governance]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Submarine Cables]] · [[Network Infrastructure#4. Governance — who hands out the numbers|internet governance]] · [[05 Networking|domain overview]]

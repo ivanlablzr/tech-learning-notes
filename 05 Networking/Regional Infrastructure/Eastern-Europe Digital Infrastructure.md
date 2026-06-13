@@ -4,7 +4,7 @@ tags: [networking, infrastructure, regional, eastern-europe]
 ---
 
 
-RIR: **RIPE NCC**. EU members + the post-Soviet borderlands, where the story is **Deutsche Telekom's regional dominance**, fast cheap fiber, emerging hyperscale DC hubs, and a sharp resilience contrast between Ukraine and Belarus. (Part of [[Internet & Infrastructure]].)
+RIR: **RIPE NCC**. EU members + the post-Soviet borderlands, where the story is **Deutsche Telekom's regional dominance**, fast cheap fiber, emerging hyperscale DC hubs, and a sharp resilience contrast between Ukraine and Belarus. (Part of [[Network Infrastructure]].)
 
 ## Poland — the regional hub
 
@@ -39,4 +39,4 @@ This is the region's key lesson in internet architecture.
 
 **China's BRI digital reach** — Serbia (Huawei "Safe City"), Hungary (Huawei 5G exempted) accept Chinese infrastructure, seen as intelligence risk by NATO. **Emerging DC hubs** — Warsaw and Bucharest now host hyperscaler regions, drawing investment from pricier Western cities via EU funds + green energy + cheaper land.
 
-Related: [[Internet & Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Northern-Europe Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
+Related: [[Network Infrastructure]] · [[Russia-Cis Digital Infrastructure]] · [[Northern-Europe Digital Infrastructure]] · [[Submarine Cables]] · [[State-Owned & Government-Linked Carriers]] · [[05 Networking|domain overview]]
