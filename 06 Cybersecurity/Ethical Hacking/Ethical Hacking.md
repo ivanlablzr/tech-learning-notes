@@ -19,12 +19,13 @@ Two ideas to anchor everything:
 
 ## The five notes
 
-| Note | What it covers |
-|---|---|
-| [[Engagement & Methodology]] | The legal setup (RoE, engagement types) and the 8-phase methodology from recon to close-out |
-| [[Technique Catalog]] | Attack techniques organized by surface — web, OS, Active Directory, mobile, hardware, RF, physical |
-| [[Credential Playbook]] | The Windows/AD path from foothold to Domain Admin, and how each step is detected |
-| [[Tooling, Forensics & Careers]] | The toolkit, digital forensics & anti-forensics, the purple-team career path, and the law |
+| Note                                                           | What it covers                                                                                     |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [[Hacking Engagement & Methodology\|Engagement & Methodology]] | The legal setup (RoE, engagement types) and the 8-phase methodology from recon to close-out        |
+| [[Technique Catalog]]                                          | Attack techniques organized by surface — web, OS, Active Directory, mobile, hardware, RF, physical |
+| [[Shells & Payloads]]                                          | Turning code execution into control — bind/reverse/web shells, payloads, TTY upgrade, detection    |
+| [[Credential Playbook]]                                        | The Windows/AD path from foothold to Domain Admin, and how each step is detected                   |
+| [[Tooling, Forensics & Careers]]                               | The toolkit, digital forensics & anti-forensics, the purple-team career path, and the law          |
 
 ## How the phases connect
 

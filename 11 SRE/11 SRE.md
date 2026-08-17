@@ -27,7 +27,7 @@ Reliability as an engineering discipline: measure it, budget it, and defend it u
 - **Capacity planning** — scaling, forecasting.
 - **Chaos / resilience engineering**.
 
-See [[Knowledge Graph#Domain Dependency Graph]].
+See [[Master Index — Technology Vault#Domain Dependency Graph]].
 
 ### Related notes in this vault
 
@@ -48,7 +48,7 @@ Existing notes this domain connects to (wired into the knowledge graph):
 7. Capacity planning & load testing.
 8. Chaos engineering — game-days, fault injection.
 
-**Milestones:** instrument a service end-to-end; run a game-day; complete an on-call + postmortem cycle. See [[Learning Paths & Projects#Project Roadmap]].
+**Milestones:** instrument a service end-to-end; run a game-day; complete an on-call + postmortem cycle. See [[Master Index — Technology Vault#Project Roadmap]].
 
 ## Dependencies
 
@@ -63,7 +63,7 @@ DevOps + Distributed Systems → SRE → Architecture
 
 ## Bridge Topics
 
-Canonical owner of (full notes in [[Knowledge Graph#Bridge Topic Map]]):
+Canonical owner of (full notes in [[Master Index — Technology Vault#Bridge Topic Map]]):
 
 - **Observability (SRE ↔ Applications ↔ DevOps)** — *canonical here.* Metrics, logs, traces, and OpenTelemetry to see inside a running distributed system; the difference between monitoring (known) and observability (unknown-unknowns).
 - **Probability ↔ SLOs/error budgets** — reuses [[00 Mathematics#Overview|Math]].
@@ -74,4 +74,4 @@ Canonical owner of (full notes in [[Knowledge Graph#Bridge Topic Map]]):
 - **Instrument a service** — RED/USE dashboards, traces, SLOs.
 - **Game-day** — inject a failure, observe, recover, measure.
 - **On-call simulation** — alert → triage → postmortem.
-- Anchors L9 multi-region resilience. See [[Learning Paths & Projects#Project Roadmap]].
+- Anchors L9 multi-region resilience. See [[Master Index — Technology Vault#Project Roadmap]].

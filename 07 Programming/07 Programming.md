@@ -8,10 +8,13 @@ Turning intent into instructions the machine executes — and structuring softwa
 
 ## Domain notes
 
-| Note | Covers |
-|---|---|
-| [[Programming Foundations]] | System/software architecture, P2P, the NASA "Power of 10" rules |
-| [[Languages & Applied Programming]] | Core languages, web development, data analytics |
+| Note                                | Covers                                                                                                                |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [[Programming Foundations]]         | What programming is, how code runs, correct/efficient/secure code, concurrency, debugging, program → system structure |
+| [[Data Structures & Algorithms]]    | Big-O, core structures, algorithm families, how to choose                                                             |
+| [[Languages & Applied Programming]] | Core languages, web development, data analytics                                                                       |
+| [[Software Engineering]]            | SDLC, SOLID & design patterns, testing, code quality, delivery, the software-domain landscape                         |
+| [[Programming Learning Resources]]  | How to *get better* — roadmaps, platforms (Exercism, boot.dev), courses, build-your-own, competitive programming, books, project ideas |
 
 ## The five views
 
@@ -24,9 +27,29 @@ Math + OS → Programming → (Databases, DevOps, Distributed, AI)
 
 **Bridge topic it owns — API contracts/serialization** (REST/gRPC/protobuf: stable, versioned, serializable interfaces between services), plus **concurrency** (reuses the [[04 Operating Systems|OS model]]), **sockets** ([[05 Networking]]), and **message queues** ([[12 Distributed Systems]]).
 
-**Learning path:** fundamentals (types, control flow, functions) → data structures (lists, trees, hash tables, graphs) → algorithms & **Big-O** → paradigms (OO, functional) → Git → testing (unit/integration/e2e) → design patterns → software architecture → APIs.
+**Learning path:** fundamentals (types, control flow, functions) → data structures (lists, trees, hash tables, graphs) → algorithms & **Big-O** → paradigms (OO, functional) → Git → testing (unit/integration/e2e) → design patterns → software architecture → APIs. (Testing, patterns, SDLC, and delivery are covered in depth in [[Software Engineering]].)
 
-**Projects:** CLI tool + tests → a REST + gRPC service (same logic, two contracts) → implement a hash map/B-tree from scratch → CI/CD + containers (the L6 anchor in [[Learning Paths & Projects#Project Roadmap]]).
+**Projects:** CLI tool + tests → a REST + gRPC service (same logic, two contracts) → implement a hash map/B-tree from scratch → CI/CD + containers (the L6 anchor in [[Master Index — Technology Vault#Project Roadmap]]).
+
+## The domain map
+
+The full territory of programming — every branch, where it's covered, and where the vault has a gap (⚠️). Content lives in the linked notes; this table only maps.
+
+| Branch | Subtopics | Covered in |
+|---|---|---|
+| **1. Foundations** | variables & types, control flow, functions & scope, recursion, I/O, error handling & exceptions, idioms | [[Programming Foundations]] §1, §4 · [[Languages & Applied Programming]] §1 (Python) |
+| **2. Data structures** | arrays/lists, stacks & queues, hash tables, linked lists, trees (BST/B-tree), heaps, graphs, tries — and when to use which | [[Data Structures & Algorithms]] §2, §4 |
+| **3. Algorithms** | **Big-O** analysis, sorting & searching, divide-and-conquer, dynamic programming, greedy, graph algorithms (BFS/DFS, Dijkstra) | [[Data Structures & Algorithms]] §1, §3 |
+| **4. Paradigms** | imperative/procedural; **OOP** (encapsulation, inheritance, polymorphism, abstraction); **functional** (pure functions, immutability, higher-order, map/filter/reduce); declarative; event-driven | [[Programming Foundations]] §3 |
+| **5. Language machinery** | compiled vs interpreted vs **JIT**; type systems (static/dynamic, strong/weak); memory management (manual vs **GC** vs Rust ownership/borrowing); runtimes & VMs | [[Programming Foundations]] §2 |
+| **6. Concurrency & parallelism** | threads vs processes vs **async/await**; race conditions; locks/mutexes/semaphores; deadlock; the GIL; channels & actors (Go/Rust) | [[Programming Foundations]] §7 · OS primitives in [[04 Operating Systems]] |
+| **7. Working with code** | Git & workflows, **debugging** (breakpoints, stack traces, bisect), **profiling** & optimization, testing, linting/static analysis, documentation | debugging/profiling: [[Programming Foundations]] §8 · rest: [[Software Engineering]] §4–6 |
+| **8. Software engineering** | SDLC & agile, SOLID, design patterns, refactoring & tech debt, code review, delivery/CI-CD, secure SDLC | [[Software Engineering]] |
+| **9. Architecture** | monolith vs microservices, client-server vs P2P, layering, trustworthy-code discipline | [[Programming Foundations]] §9 → [[13 Architecture]] |
+| **10. Interfaces & data formats** | **API contracts** (REST/GraphQL/gRPC, serialization: JSON/protobuf), regex & text processing, file formats (CSV/JSON/YAML/binary), SQL | ⚠️ thin — APIs are this domain's *owned bridge* but have no canonical note; SQL → [[08 Databases]] |
+| **11. Applied domains** | web, mobile, desktop, systems, embedded, data, ML/AI, games, security, network programming, HPC | [[Software Engineering]] §8 landscape · [[Languages & Applied Programming]] |
+
+Remaining gap, in priority order: **API contracts** (the owned bridge — feeds [[AI Products & Startup Engineering]] tool-calling and every backend you'll write). Secondary depth targets when needed: regex/text processing, and per-language deep dives (Go/Rust) as they enter use.
 
 ## Mastery roadmap
 
@@ -51,4 +74,4 @@ Programming applied to the physical world. (Hardware, peripherals, and the UART/
 - **IoT (ESP32):** Wi-Fi + **MQTT** pub/sub, **OTA** firmware updates, and **deep sleep** (~10 µA) for battery life.
 - **Firmware security:** flash encryption + secure boot (prevent dumping/tampering), TLS for comms, never hard-code credentials, protect debug headers (JTAG/UART).
 
-Related: [[02 Electronics]] · [[04 Operating Systems]] · [[08 Databases]] · [[14 AI]] · [[Knowledge Graph]] · [[Home]]
+Related: [[02 Electronics]] · [[04 Operating Systems]] · [[08 Databases]] · [[14 AI]] · [[Master Index — Technology Vault]]

@@ -19,6 +19,7 @@ How logic circuits become a machine that executes instructions, stores data, and
 > **Interactions:** CPU+memory+I/O+buses form the platform the kernel manages; virtualization later abstracts it away.
 
 ### Sub-areas
+- **How components interact** — buses, datapath, memory hierarchy, interrupts/DMA, boot chain → [[Hardware Interaction & Data Flow]].
 - **Computer architecture** — von Neumann vs Harvard, the instruction cycle.
 - **CPU** — ALU, registers, control unit, pipelines, branch prediction, caches.
 - **Memory hierarchy** — registers → L1/L2/L3 cache → DRAM → storage.
@@ -26,7 +27,7 @@ How logic circuits become a machine that executes instructions, stores data, and
 - **Interconnects/buses** — PCIe, SATA, USB, DMA, interrupts.
 - **Hardware security** — TPM, Secure Boot, hardware root of trust.
 
-See [[Knowledge Graph#Domain Dependency Graph]].
+See [[Master Index — Technology Vault#Domain Dependency Graph]].
 
 ### Related notes in this vault
 
@@ -63,7 +64,7 @@ Electronics → Computer Hardware → Operating Systems → (Networking, Cloud)
 
 ## Bridge Topics
 
-Canonical owner of two key bridges (full notes in [[Knowledge Graph#Bridge Topic Map]]):
+Canonical owner of two key bridges (full notes in [[Master Index — Technology Vault#Bridge Topic Map]]):
 
 - **Hypervisors / virtualization (Hardware ↔ Cloud)** — *canonical here.* Decouples workloads from physical machines; the basis of [[09 Cloud|cloud]] compute. Types 1 & 2, hardware-assisted virtualization (VT-x/AMD-V).
 - **Boot / trust chain (Hardware ↔ OS ↔ Security)** — *canonical here.* UEFI → Secure Boot → TPM → bootloader → kernel; how a dead machine becomes a *trusted* running system.
@@ -71,7 +72,7 @@ Canonical owner of two key bridges (full notes in [[Knowledge Graph#Bridge Topic
 
 ## Projects
 
-- **Logic-to-CPU simulator** — extend the L0 project to fetch/decode/execute (see [[Learning Paths & Projects#Project Roadmap]]).
+- **Logic-to-CPU simulator** — extend the L0 project to fetch/decode/execute (see [[Master Index — Technology Vault#Project Roadmap]]).
 - **Assembly programs** — write small routines; watch registers/memory.
 - **Virtualization lab** — run a Type-1 hypervisor, create VMs (bridges into Cloud track).
 - **Secure Boot / TPM exploration** — observe measured boot on real hardware.
@@ -82,9 +83,9 @@ Canonical owner of two key bridges (full notes in [[Knowledge Graph#Bridge Topic
 ## Computer Hardware
 
 > [!info] Knowledge graph
-> Part of the systems-thinking map → [[03 Computer Hardware#Overview]] · [[Home]]
+> Part of the systems-thinking map → [[03 Computer Hardware#Overview]] · [[Master Index — Technology Vault]]
 
-#technology #hacking #cybersecurity 
+#technology #hacking #cybersecurity
 
 Computation -> Protocols -> Boolean algebra -> **Logical operations** -> Transistors
 #### What electronic does it contain?
@@ -140,14 +141,14 @@ Computation -> Protocols -> Boolean algebra -> **Logical operations** -> Transis
 			- very accurate color
 	- Mini LED: same as LCD but with much smaller LEDs (Light Emitting Diodes)
 	- Touchscreen
-		- digitizers responds to touch 
+		- digitizers responds to touch
 	- Pixel density: number of pixels per inches -> 27 inch 4K display = 3,840 horizontal divided by 24 inches wide (160 pixels per inches)
 	- Refresh rates: number of cycles (images) per second measured in Hz (FPS)
 	- Color gamut: the range of colors available on a display
 			- sRBG
 			- Adobe RGB
 			- ITU standards for HDTV
-  
+
 
 #### Who creates these electronic components?
 

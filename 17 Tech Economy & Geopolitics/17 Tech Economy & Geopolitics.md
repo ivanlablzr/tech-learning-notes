@@ -42,4 +42,4 @@ How technology creates and captures value — and how that value became the cent
 
 This domain reads the technical stack as an economy: [[Semiconductor Economics]] ↔ [[03 Computer Hardware]]; [[Cloud, Data & AI Economics]] ↔ [[09 Cloud]] + [[14 AI]]; the geopolitics notes ↔ the [[Regional Infrastructure/North-America Digital Infrastructure|regional infrastructure]], [[Submarine Cables]], and [[State-Owned & Government-Linked Carriers]] notes.
 
-Related: [[03 Computer Hardware]] · [[14 AI]] · [[09 Cloud]] · [[Network Infrastructure]] · [[Home]]
+Related: [[03 Computer Hardware]] · [[14 AI]] · [[09 Cloud]] · [[Network Infrastructure]] · [[Master Index — Technology Vault]]

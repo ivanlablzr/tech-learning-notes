@@ -1,5 +1,29 @@
-Gap Analysis — Networking & Cybersecurity Curriculum.md
-Cyber Roadmap.md
+gitignore
+# --- OS / editor junk ---
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# --- Obsidian state (defensive; inert unless repo root = vault root) ---
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# --- Syncthing / sync artifacts ---
+*.sync-conflict-*
+.stfolder/
+.stversions/
+
+# --- temp ---
+*~
+*.tmp
+
+# --- binaries: keep this a text-only notes repo ---
+*.docx
+*.pptx
+*.xlsx
+*.pdf
+
+# --- private / incomplete notes ---
 16 Projects/
-00 - Knowledge Graph/Analysis & Gaps.md
-07 Programming/Coding Projects

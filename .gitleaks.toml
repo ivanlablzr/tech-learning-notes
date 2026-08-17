@@ -1,0 +1,14 @@
+# gitleaks config — extends the built-in ruleset, then allowlists ONLY
+# two known-benign teaching strings so they don't trip the hook.
+# NOTE: we do NOT allowlist whole files — every note is still scanned.
+title = "tech-learning-notes gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Educational examples, not real secrets"
+regexes = [
+  '''password=secret123''',     # illustrative HTTP login in 'TLS & SSL.md'
+  '''FF:FF:FF:FF:FF:FF''',       # broadcast MAC address, a constant
+]

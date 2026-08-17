@@ -13,6 +13,7 @@ The **resource manager and trust boundary** that multiplexes one machine across 
 |---|---|
 | [[Linux]] | Architecture, admin, boot recovery, storage, performance, troubleshooting, hardening |
 | [[Windows]] | Architecture, NT internals, registry, services, security model |
+| [[Shells & Command Line]] | What a shell is; bash/zsh/sh/fish, cmd/PowerShell/WSL; config, features, scripting |
 
 ## OS concepts (the theory under both)
 
@@ -36,6 +37,6 @@ Hardware → OS → (Networking, Programming, Security, Containers)
 
 **Learning path:** kernel/user space & syscalls → processes (fork/exec) → threads & concurrency (locks, deadlock) → scheduling → virtual memory/paging → filesystems (VFS, journaling) → I/O & drivers → Linux internals (namespaces/cgroups) → OS security (MAC, capabilities, seccomp).
 
-**Projects:** Linux infrastructure lab (L1 anchor) → a container from scratch (namespaces + cgroups + chroot, no Docker) → a tiny shell (fork/exec/wait, pipes, signals) → an eBPF probe to watch the kernel live. See [[Learning Paths & Projects#Project Roadmap]].
+**Projects:** Linux infrastructure lab (L1 anchor) → a container from scratch (namespaces + cgroups + chroot, no Docker) → a tiny shell (fork/exec/wait, pipes, signals) → an eBPF probe to watch the kernel live. See [[Master Index — Technology Vault#Project Roadmap]].
 
-Related: [[03 Computer Hardware]] · [[05 Networking]] · [[06 Cybersecurity]] · [[Knowledge Graph]] · [[Home]]
+Related: [[03 Computer Hardware]] · [[05 Networking]] · [[06 Cybersecurity]] · [[Master Index — Technology Vault]]

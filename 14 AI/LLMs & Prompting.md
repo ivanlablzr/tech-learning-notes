@@ -62,8 +62,29 @@ The goal is **reliable, parseable output**, not just good prose.
 - **Function calling / agents:** define tools (name, description, JSON-schema params); the model emits a call, *you* execute it and feed the result back in a loop (observe → think → act). Frameworks: LangChain, LlamaIndex (RAG), AutoGen/CrewAI (multi-agent) — but the direct SDK is fine for simple loops.
 - **RAG:** `query → embed → vector search → top-K chunks → LLM context → answer`. Chunk docs ~512–1024 tokens with overlap; store in a vector DB (Chroma/pgvector/Pinecone); retrieve by cosine similarity.
 - **Production concerns:** **stream** tokens for responsive UIs; count tokens (`tiktoken`) and manage context (sliding window, hierarchical summarization); handle errors with **exponential backoff** on rate limits + model fallback; cut cost with **prompt caching** (Anthropic prefix caching / OpenAI auto-cache ~50%), the Batch API, and response caching.
+- **Evals:** the test suite for AI behavior — a golden dataset of 50–200 real cases with known-correct answers, scored on every prompt/model change; without it you can't tell improvement from regression. Treat **prompts as code** (versioned, reviewed). Product-level view (orchestration, guardrails, economics) in [[AI Products & Startup Engineering]].
 
-## 8. LLM security
+## 8. Evaluating & comparing models — benchmarks
+
+"Which model is better?" has no single answer — it depends on what you weigh (accuracy, latency, cost, safety). Professionals evaluate two ways: **task-specific** (define the task → build a held-out test set with known-correct labels → run the model → score) and **overall** (aggregate benchmarks, human ratings, or a per-category capability profile, since models are strong at different things).
+
+**Standard public benchmarks** (useful as a rough signal, easy to over-read):
+
+| Category | Benchmarks | Metric |
+|---|---|---|
+| Knowledge & reasoning | **MMLU** (57 subjects), AGIEval (human exams), ARC (science), GPQA (expert science) | accuracy |
+| Coding | **HumanEval**, MBPP, SWE-bench (real GitHub issues), Codeforces-style | **pass@k** / solve rate |
+| Math & logic | **GSM8K** (grade-school), MATH (competition), BIG-bench | accuracy |
+| Translation / summarization | reference-based | **BLEU / ROUGE** |
+| Safety & alignment | toxicity/bias tests, jailbreak robustness, truthfulness | resist/violation rate |
+| Multimodal | VQA, image-QA | accuracy |
+| Agent / tool use | web tasks, tool-calling benchmarks | correctness + efficiency |
+
+**Leaderboards:** Papers With Code, Hugging Face Open LLM Leaderboard, and **LMSYS Chatbot Arena** (ranked by blind human preference, Elo-style). **Human evaluation** — side-by-side preference and rating scales (helpfulness, correctness, safety, conciseness) — is expensive but more reliable for subjective quality than automatic metrics.
+
+**Limitations (why you can't trust a leaderboard alone):** benchmarks get **gamed** — test data leaks into training, inflating scores; they measure accuracy but miss safety in edge cases, adversarial robustness, multi-turn behavior, latency, and integration cost; and a high MMLU score says little about *your* task (summarizing legal contracts, classifying findings). This is exactly why product teams build their own **evals** on representative in-domain data (§7) rather than relying on public numbers — define your own success criteria, test set, and compare models/prompts on automatic *and* human metrics plus operational factors (latency, cost/query, compliance).
+
+## 9. LLM security
 
 - **Prompt injection** — the signature LLM vuln: **direct** ("ignore previous instructions…") or **indirect** (malicious text in a fetched web page/PDF/email that an agent reads). Defenses: separate system from user input via API roles, input/output filtering, privilege separation, and human approval for sensitive actions.
 - **Never trust LLM output for security decisions** (access control, authz) — it can be coerced to emit `{"authorized": true}`. Use deterministic logic.
@@ -72,4 +93,4 @@ The goal is **reliable, parseable output**, not just good prose.
 
 > See [[Internet & Application Security|AI & ML Security]] for the broader adversarial-ML threat model.
 
-Related: [[AI Foundations]] · [[Machine Learning & Deep Learning]] · [[14 AI|domain overview]] · [[Internet & Application Security]] · [[Cryptography]]
+Related: [[AI Foundations]] · [[Machine Learning & Deep Learning]] · [[AI Products & Startup Engineering]] · [[14 AI|domain overview]] · [[Internet & Application Security]] · [[Cryptography]]

@@ -28,7 +28,7 @@ The substrate beneath all of computing. Most IT learners underestimate it; crypt
 - **Probability & statistics** — distributions, hypothesis testing → ML, SRE, capacity planning.
 - **Information theory** — entropy, channel capacity → compression, error correction, crypto.
 
-See [[Knowledge Graph#Domain Dependency Graph]] and [[Analysis & Gaps#Gap Analysis]] (Mathematics was a P0 missing root).
+See [[Master Index — Technology Vault#Domain Dependency Graph]] and [[Master Index — Technology Vault#Gap Analysis]] (Mathematics was a P0 missing root).
 
 ### Related notes in this vault
 
@@ -49,7 +49,7 @@ Existing notes this domain connects to (wired into the knowledge graph):
 7. Number theory & modular arithmetic → feeds [[06 Cybersecurity#Learning Path|cryptography]].
 8. Information theory — entropy, Shannon, channel capacity.
 
-**Milestones:** truth-table → gate mapping (supports L0 [[Learning Paths & Projects#Project Roadmap|Logic-to-CPU]]); implement modular exponentiation by hand (supports PKI lab).
+**Milestones:** truth-table → gate mapping (supports L0 [[Master Index — Technology Vault#Project Roadmap|Logic-to-CPU]]); implement modular exponentiation by hand (supports PKI lab).
 
 ## Dependencies
 
@@ -71,7 +71,7 @@ Mathematics → (Physics, Programming, Crypto, AI, Distributed, Networking)
 
 ## Bridge Topics
 
-Math itself is the ultimate bridge. The connectors where it meets other domains (canonical notes live in [[Knowledge Graph#Bridge Topic Map]]):
+Math itself is the ultimate bridge. The connectors where it meets other domains (canonical notes live in [[Master Index — Technology Vault#Bridge Topic Map]]):
 
 - **Boolean algebra ↔ Logic gates** — math becomes hardware. Owner: [[02 Electronics|Bridge Topics]].
 - **Modular arithmetic ↔ Public-key crypto** — math becomes [[06 Cybersecurity#Bridge Topics|TLS/PKI]].
@@ -84,10 +84,10 @@ Math itself is the ultimate bridge. The connectors where it meets other domains 
 
 Math is proven by *use* inside other projects rather than standalone builds.
 
-- **Truth-table → gate design** — supports L0 [[Learning Paths & Projects#Project Roadmap|Logic-to-CPU simulator]].
-- **Implement RSA from scratch** (modexp, key gen) — supports L3 [[Learning Paths & Projects#Project Roadmap|PKI lab]].
+- **Truth-table → gate design** — supports L0 [[Master Index — Technology Vault#Project Roadmap|Logic-to-CPU simulator]].
+- **Implement RSA from scratch** (modexp, key gen) — supports L3 [[Master Index — Technology Vault#Project Roadmap|PKI lab]].
 - **Subnet calculator** in binary — supports L0 Home networking lab.
 - **Toy linear-algebra neural net** (no framework) — supports AI track.
 - **Entropy/compression experiment** — Huffman coding to feel information theory.
 
-See full ladder in [[Learning Paths & Projects#Project Roadmap]].
+See full ladder in [[Master Index — Technology Vault#Project Roadmap]].

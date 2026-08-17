@@ -9,7 +9,7 @@ tags: [domain, moc]
 
 ## Overview
 
-How systems store, index, and reliably query state. A P0 domain dropped from the source build-first list (see [[Analysis & Gaps#Gap Analysis]]).
+How systems store, index, and reliably query state. A P0 domain dropped from the source build-first list (see [[Master Index — Technology Vault#Gap Analysis]]).
 
 > [!question] The five questions
 > **Why it exists:** programs need durable, queryable, consistent state beyond memory.
@@ -25,7 +25,7 @@ How systems store, index, and reliably query state. A P0 domain dropped from the
 - **Distributed data** — replication, sharding, consensus (→ [[12 Distributed Systems#Overview]]).
 - **Caching** — read-through, write-back, invalidation.
 
-See [[Knowledge Graph#Domain Dependency Graph]].
+See [[Master Index — Technology Vault#Domain Dependency Graph]].
 
 ### Related notes in this vault
 
@@ -68,11 +68,11 @@ Programming + OS → Databases → (Distributed Systems, AI, Architecture)
 - **Indexes as algorithms** — B-tree/LSM connect [[07 Programming|algorithms]] to disk.
 - **Caching ↔ load** — connects to [[09 Cloud|load balancing]] and CDN.
 
-See [[Knowledge Graph#Bridge Topic Map]].
+See [[Master Index — Technology Vault#Bridge Topic Map]].
 
 ## Projects
 
 - **Schema + query tuning** — model a domain, add indexes, read query plans.
 - **Build a tiny KV store** with a WAL — feel durability.
 - **Replication experiment** — set up primary/replica, induce lag/failover.
-- Supports L7–L9 (stateful services in K8s, multi-region data). See [[Learning Paths & Projects#Project Roadmap]].
+- Supports L7–L9 (stateful services in K8s, multi-region data). See [[Master Index — Technology Vault#Project Roadmap]].

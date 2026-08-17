@@ -8,14 +8,14 @@ The languages you'll actually write, plus the two biggest applied tracks built o
 
 ## 1. Core languages
 
-| Language | Typical use | Notes |
-|---|---|---|
-| **Python** | Scripting, data/ML, automation, backends | Readable; the data & security workhorse |
-| **JavaScript / TypeScript** | The browser (only native web language) + Node backends | TS adds compile-time type checking |
-| **HTML / CSS** | Web structure & style (markup, not programming) | Reference: MDN |
-| **SQL** | Querying relational data | Essential even for "Python" analysts |
-| **Bash / PowerShell** | OS automation, glue | See [[Linux]] / [[Windows]] |
-| **Go / Rust / Java** | Fast services, systems, enterprise | Go = simple concurrency; Rust = memory-safe perf |
+| Language                    | Typical use                                                                                                           | Notes                                            |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Python**                  | Scripting, data/ML, automation, backends                                                                              | Readable; the data & security workhorse          |
+| **JavaScript / TypeScript** | The browser (only native web language) + Node backends                                                                | TS adds compile-time type checking               |
+| **HTML / CSS**              | Web structure & style (markup, not programming)                                                                       | Reference: MDN                                   |
+| **SQL**                     | Querying relational data                                                                                              | Essential even for "Python" analysts             |
+| **Shell**                   | OS automation, glue, sh, zsh, tcsh, ksh, fish shell, bash, powershell, cmd, etc, web shell, reverse shell, bind shell | See [[Linux]] / [[Windows]]                      |
+| **Go / Rust / Java**        | Fast services, systems, enterprise                                                                                    | Go = simple concurrency; Rust = memory-safe perf |
 
 **Python in one screen:** types (int/float/str/bool) and structures (list, set, tuple, **dict** = key→value); control flow (`for`/`while`/`if-elif-else`/`match`); functions (default/keyword/`*args`/`**kwargs`, scope, lambdas, higher-order); operators (arithmetic, comparison, logical, bitwise, membership `in`, identity `is`); **mutable vs immutable**; file I/O; then OOP (classes/objects), decorators, generators, exception handling, virtual environments. Good habits: meaningful names, no hard-coded values, comprehensions, error handling, `venv` per project.
 

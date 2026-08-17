@@ -26,7 +26,7 @@ Computing is physics made useful: electrons in silicon, photons in fiber, electr
 - **Wave theory** — frequency, amplitude, wavelength, phase → RF & fiber optics.
 - **Information theory** (shared with [[00 Mathematics#Overview|Math]]) — entropy, noise, channel capacity.
 
-See [[Knowledge Graph#Domain Dependency Graph]].
+See [[Master Index — Technology Vault#Domain Dependency Graph]].
 
 ### Related notes in this vault
 
@@ -66,12 +66,12 @@ Mathematics → Physics → (Electronics → Hardware, Networking physical layer
 - **Electromagnetism/wave theory ↔ Physical layer** — physics becomes Ethernet/Wi-Fi/fiber. Owner: [[05 Networking|Bridge Topics]].
 - **Information theory ↔ Channel capacity** — physics+math bound how fast a link can be.
 
-Canonical bridge notes: [[Knowledge Graph#Bridge Topic Map]].
+Canonical bridge notes: [[Master Index — Technology Vault#Bridge Topic Map]].
 
 ## Projects
 
-- **Breadboard logic** — build an AND/OR from transistors; feel gates physically (supports L0 [[Learning Paths & Projects#Project Roadmap|Logic-to-CPU]]).
+- **Breadboard logic** — build an AND/OR from transistors; feel gates physically (supports L0 [[Master Index — Technology Vault#Project Roadmap|Logic-to-CPU]]).
 - **RF range experiment** — measure Wi-Fi signal vs distance/obstacles (supports Home networking lab).
 - **Simple radio / antenna** — modulation & wave theory hands-on.
 
-See [[Learning Paths & Projects#Project Roadmap]].
+See [[Master Index — Technology Vault#Project Roadmap]].

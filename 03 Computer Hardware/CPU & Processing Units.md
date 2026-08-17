@@ -145,7 +145,7 @@ A programmable ASIC that forwards packets at **line rate** with deterministic, s
 | **DSP** | Real-time signal processing (audio, radio, sensors) |
 | **FPGA** | Reconfigurable logic — custom pipelines, low-latency finance/networking |
 | **Crypto processor** | Hardware encryption/key handling (HSM, secure enclave) |
-| **QPU** | Quantum processing — see [[Quantum Computing & Technology]] |
+| **QPU** | Quantum processing — see [[15 Quantum Computing & Technology]] |
 
 ---
 

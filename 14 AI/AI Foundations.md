@@ -51,4 +51,17 @@ If a system optimizes a **misspecified** objective with enough capability, it ca
 
 Safety research directions: **RLHF** (train on human preferences), **Constitutional AI** (the model critiques itself against principles — Anthropic), **mechanistic interpretability** (read the model's internals), **corrigibility** (want to be corrected), and **capability containment**. The field is split — cautious (Bostrom, Russell, Hinton, Yudkowsky) vs skeptical-of-existential-risk (LeCun, Ng) — with regulation emerging (EU AI Act, AI Safety Institutes, frontier-model evaluations).
 
+## Open problems beyond alignment
+
+Alignment is the deepest long-term concern, but current systems have unsolved problems that shape what they can responsibly be used for today:
+
+- **Reliability & hallucination** — models generate confidently even when wrong and have no built-in "I don't know," which blocks unsupervised use in medicine, law, and finance (mitigations — RAG, tool use, grounding — in [[LLMs & Prompting]]).
+- **Reasoning & planning** — strong local coherence, weak deep multi-step logic and long-horizon planning under many constraints (the same gap that makes AGI hard, above).
+- **Interpretability** — it's hard to explain *why* a model produced an answer, which hurts debugging, regulation, and trust in high-stakes domains → mechanistic interpretability research (above).
+- **Data provenance & copyright** — training corpora scraped from the web raise unresolved copyright, consent, and fair-use questions; responses include licensed datasets, synthetic data, and opt-out mechanisms.
+- **Efficiency & cost** — frontier models are expensive to train and serve; shrinking them (quantization, distillation) to run cheaply on consumer hardware is an active engineering frontier (see [[Machine Learning & Deep Learning]], [[LLMs & Prompting]]).
+- **Personalization vs privacy** — adapting to a user's style and knowledge without harvesting their data; explored via federated learning, on-device models, and differential privacy.
+
+These are engineering-and-governance problems (tractable, incrementally improving) — distinct from the alignment problem above, which is about *control* as capability grows.
+
 Related: [[Machine Learning & Deep Learning]] · [[LLMs & Prompting]] · [[14 AI|domain overview]] · [[Internet & Application Security|AI & ML Security]]

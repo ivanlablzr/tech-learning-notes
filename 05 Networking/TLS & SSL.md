@@ -3,15 +3,15 @@ type: note
 tags: networking, osi, protocols, tls, ssl, layer 5 - session
 ---
 
-
+> [[05 Networking]] → canonical deep note for this protocol. The cross-protocol **'load a webpage' end-to-end flow** is documented once in [[Master Index — Technology Vault]]; this note stays focused on the protocol itself.
 **TLS (Transport Layer Security)** is the protocol that provides:
 
 - **Confidentiality** (encryption)
-    
+
 - **Integrity** (tamper detection)
-    
+
 - **Authentication** (verifying who you're talking to)
-    
+
 
 When you see:
 
@@ -173,11 +173,11 @@ Browsers trust a set of organizations called **Certificate Authorities**.
 Examples include:
 
 - DigiCert
-    
+
 - GlobalSign
-    
+
 - Let's Encrypt
-    
+
 
 A CA verifies control of a domain and signs a certificate.
 
@@ -264,13 +264,13 @@ The server sends its certificate.
 The client verifies:
 
 - Signature chain
-    
+
 - Expiration date
-    
+
 - Domain name
-    
+
 - Trust chain
-    
+
 
 ---
 
@@ -398,13 +398,13 @@ Your connection is not private
 Common causes:
 
 - Expired certificate
-    
+
 - Wrong hostname
-    
+
 - Self-signed certificate
-    
+
 - Invalid signature chain
-    
+
 
 ---
 
@@ -440,13 +440,13 @@ TLS 1.3 simplified the protocol and removed many insecure features.
 Benefits include:
 
 - Faster handshakes
-    
+
 - Stronger default cryptography
-    
+
 - Reduced attack surface
-    
+
 - Better performance
-    
+
 
 It is now the preferred TLS version for modern systems.
 
@@ -467,60 +467,3 @@ cannot normally be decrypted.
 This is possible because each session uses ephemeral key exchange values rather than reusing long-term secrets.
 
 ---
-
-# Relationship Between [[DNS]], TLS, and [[HTTP]]
-
-When you open:
-
-```text
-https://www.example.com
-```
-
-the flow is typically:
-
-```text
-1. DNS
-   www.example.com
-   → 93.184.216.34
-
-2. TCP or QUIC connection
-
-3. TLS handshake
-   - Verify identity
-   - Establish encryption
-
-4. HTTP request
-   GET /
-
-5. HTTP response
-   200 OK
-```
-
-Or as a stack:
-
-```text
-Application
-└─ HTTP
-
-Security
-└─ TLS
-
-Transport
-└─ TCP
-   (or QUIC for HTTP/3)
-
-Network
-└─ IP
-```
-
-A useful way to remember the roles:
-
-| Protocol | Main Question                                              |
-| -------- | ---------------------------------------------------------- |
-| [[DNS]]  | "Where is the server?"                                     |
-| TLS      | "Can I trust the server, and can we communicate securely?" |
-| [[HTTP]] | "What resource do I want?"                                 |
-| TCP/QUIC | "How do the bytes get there reliably?"                     |
-| IP       | "How are packets routed across networks?"                  |
-
-Together, [[DNS]], TLS, and [[HTTP]] form the core sequence that occurs almost every time a browser loads a modern website.

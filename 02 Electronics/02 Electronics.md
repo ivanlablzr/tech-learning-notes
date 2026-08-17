@@ -27,11 +27,11 @@ Where physics becomes controllable — components and logic that turn voltage in
 Physics + Boolean algebra → Electronics → Computer Hardware
 ```
 
-**Bridge topic it owns — the transistor:** the exact point where semiconductor physics becomes a controllable switch. Everything digital stands on it (see [[Knowledge Graph#Bridge Topic Map]]).
+**Bridge topic it owns — the transistor:** the exact point where semiconductor physics becomes a controllable switch. Everything digital stands on it (see [[Master Index — Technology Vault#Bridge Topic Map]]).
 
 **Learning path:** passive components & circuits → diodes/transistors (MOSFET as a switch) → logic gates (NAND is universal) → combinational logic (adders, MUX) → sequential logic (flip-flops, registers, counters) → microcontrollers.
 
-**Projects:** transistor logic gates on a breadboard → a 4-bit adder from gates → a **Logic-to-CPU simulator** (Logisim/nand2tetris) — the L0 anchor in [[Learning Paths & Projects#Project Roadmap]].
+**Projects:** transistor logic gates on a breadboard → a 4-bit adder from gates → a **Logic-to-CPU simulator** (Logisim/nand2tetris) — the L0 anchor in [[Master Index — Technology Vault#Project Roadmap]].
 
 ## Fundamentals & bench practice
 
@@ -49,4 +49,4 @@ The core relationships (full treatment in [[Electrical Engineering & Electricity
 > [!warning] Safety
 > Voltages above ~50 V AC / 120 V DC can be lethal — mains kills reliably. **ESD**: thousands of volts of body static can silently destroy ICs/MOSFETs — use a grounded wrist strap. **Capacitors** (power supplies, camera flashes, CRTs) store lethal charge after power-off — discharge through a resistor first. Check electrolytic/diode polarity before powering; fuse against shorts.
 
-Related: [[01 Physics]] · [[03 Computer Hardware]] · [[Knowledge Graph]] · [[Home]]
+Related: [[01 Physics]] · [[03 Computer Hardware]] · [[Master Index — Technology Vault]]

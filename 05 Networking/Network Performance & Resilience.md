@@ -37,7 +37,7 @@ Resilience rests on **redundancy** (duplicate components), **fault tolerance** (
 
 **WAN:** **dual ISP** (active/active needs BGP; active/passive is simpler), **BGP failover** (advertise your prefix to both providers), **BFD** (sub-second failure detection — ~150–900 ms vs slow routing timers), and **SD-WAN** (multiple active transports, app-aware reroute in ms — see [[Wireless & Cellular]]).
 
-**Application layer:** **load balancers** spread connections across a server pool with **health checks** (L4 = TCP/UDP hash/round-robin; L7 = route by URL/header/cookie; e.g. HAProxy, NGINX, F5, AWS ALB), and **anycast** (same IP from many datacenters — clients hit the nearest; BGP withdraws a failed site). 
+**Application layer:** **load balancers** spread connections across a server pool with **health checks** (L4 = TCP/UDP hash/round-robin; L7 = route by URL/header/cookie; e.g. HAProxy, NGINX, F5, AWS ALB), and **anycast** (same IP from many datacenters — clients hit the nearest; BGP withdraws a failed site).
 
 ## 3. Disaster recovery
 

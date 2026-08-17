@@ -7,6 +7,8 @@ aliases: [IAM]
 
 Renting and composing datacenter capacity as **programmable, on-demand services** — from hypervisors to global platforms. It trades slow, capital-heavy hardware ownership for elastic pay-as-you-go infrastructure.
 
+Learn with AWS/GCP/Azure official website, https://madhat.io/pages/labs?_su_rec=jVEwWIddsq63Zn5_cK155qKiyk9XCZauOaAa7mvyqhOFM33H3JG4BQfZG-VaMs4zLcf17_8UDQwObqh9OE2b7qXMTMZcge8RefL1gLX2TpnOn4Fhx5NzKjHNkH899v7GYMfdGtr26Dp3GpOlGVK1BpiGGhl5p0dMcmhA8OTtC1sUfr_JdQmXek0xI7uNQO2kFu0Y_f0nE7aEmmMsp6sq124ExS4VK4IZMIMOZfJiSrqPt5p61FXkylPZ6gUcmkYZ&_su_rec_id=986f8d1b-ef89-43f0-b388-29fb90a7890d-1785946852, https://nextwork.ai/
+
 ## Domain notes
 
 | Note | Covers |
@@ -25,7 +27,7 @@ The arc: **virtualization → VMs → cloud services → IaC (Terraform, AWS CDK
 
 **Learning path:** virtualization → compute → storage → cloud networking (VPC/CIDR) → **IAM** → automation (IaC/[[10 DevOps|Terraform]], AWS CDK, CloudFormation) → multi-account governance → multi-region HA/DR → FinOps & a Well-Architected review lens.
 
-**Projects:** single-VPC web app (compute + storage + IAM + load balancer) → multi-account landing zone (L8) → multi-region resilient system (L9). See [[Learning Paths & Projects#Project Roadmap]].
+**Projects:** single-VPC web app (compute + storage + IAM + load balancer) → multi-account landing zone (L8) → multi-region resilient system (L9). See [[Master Index — Technology Vault#Project Roadmap]].
 
 ## Bridge topics it owns
 
@@ -33,6 +35,6 @@ The arc: **virtualization → VMs → cloud services → IaC (Terraform, AWS CDK
 
 **Load balancing — Networking ↔ Cloud ↔ Distributed.** Spread traffic for scale and availability: **L4** (transport) vs **L7** (application-aware), with health checks and global routing.
 
-Also links out to **hypervisors/virtualization** ([[03 Computer Hardware]]) and **Terraform/IaC** ([[10 DevOps]]). Full map in [[Knowledge Graph#Bridge Topic Map]].
+Also links out to **hypervisors/virtualization** ([[03 Computer Hardware]]) and **Terraform/IaC** ([[10 DevOps]]). Full map in [[Master Index — Technology Vault#Bridge Topic Map]].
 
-Related: [[03 Computer Hardware]] · [[05 Networking]] · [[06 Cybersecurity]] · [[10 DevOps]] · [[12 Distributed Systems]] · [[Home]]
+Related: [[03 Computer Hardware]] · [[05 Networking]] · [[06 Cybersecurity]] · [[10 DevOps]] · [[12 Distributed Systems]] · [[Master Index — Technology Vault]]

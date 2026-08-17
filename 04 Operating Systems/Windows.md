@@ -7,6 +7,9 @@ tags: [os, windows, sysadmin]
 
 A working model of Windows for administration, troubleshooting, and security. PowerShell is the primary tool; the registry and event log are the two databases you must understand.
 
+https://www.youtube.com/watch?v=zvZT4g041KY
+
+
 ## 1. Architecture & boot
 
 ```

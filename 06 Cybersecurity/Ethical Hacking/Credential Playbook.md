@@ -34,4 +34,4 @@ Techniques that are hard to catch because they look like legitimate activity —
 
 Map every technique to its **MITRE ATT&CK** technique ID so findings line up with the defender's detection coverage (see [[Threats & Malware#6. APTs & MITRE ATT&CK|MITRE ATT&CK]]).
 
-Related: [[Ethical Hacking|offensive overview]] · [[Engagement & Methodology#3.5 Lateral movement — spread|lateral movement]] · [[Technique Catalog#Active Directory|AD techniques]] · [[Security Operations & IR]] · [[Threats & Malware#6. APTs & MITRE ATT&CK|MITRE ATT&CK]]
+Related: [[Ethical Hacking|offensive overview]] · [[Hacking Engagement & Methodology#3.5 Lateral movement — spread|lateral movement]] · [[Technique Catalog#Active Directory|AD techniques]] · [[Security Operations & IR]] · [[Threats & Malware#6. APTs & MITRE ATT&CK|MITRE ATT&CK]]

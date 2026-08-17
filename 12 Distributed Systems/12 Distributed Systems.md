@@ -9,7 +9,7 @@ tags: [domain, moc]
 
 ## Overview
 
-What changes when one computer becomes many connected by an unreliable network. Promoted to its own domain (it was scattered across Databases/Architecture/Networking — see [[Analysis & Gaps#Gap Analysis]]).
+What changes when one computer becomes many connected by an unreliable network. Promoted to its own domain (it was scattered across Databases/Architecture/Networking — see [[Master Index — Technology Vault#Gap Analysis]]).
 
 > [!question] The five questions
 > **Why it exists:** single machines hit limits of scale, locality, and availability.
@@ -27,7 +27,7 @@ What changes when one computer becomes many connected by an unreliable network. 
 - **Messaging** (→ bridge) — queues, streaming (Kafka), idempotency, exactly-once.
 - **Patterns** — sagas, CQRS, event sourcing.
 
-See [[Knowledge Graph#Domain Dependency Graph]].
+See [[Master Index — Technology Vault#Domain Dependency Graph]].
 
 ### Related notes in this vault
 
@@ -65,7 +65,7 @@ Networking + Databases + Programming → Distributed Systems → (Cloud, SRE, Ar
 
 ## Bridge Topics
 
-Canonical owner of (full notes in [[Knowledge Graph#Bridge Topic Map]]):
+Canonical owner of (full notes in [[Master Index — Technology Vault#Bridge Topic Map]]):
 
 - **Consensus (Raft/Paxos)** — *canonical here.* Agree on one value despite failures; powers etcd, ZooKeeper, replicated DBs, [[10 DevOps|Kubernetes]].
 - **Message queues / streaming (Kafka)** — *canonical here.* Decouple producers/consumers, absorb load, event sourcing; idempotency & ordering.
@@ -77,4 +77,4 @@ Canonical owner of (full notes in [[Knowledge Graph#Bridge Topic Map]]):
 - **Toy Raft / quorum KV store** — feel consensus and split-brain.
 - **Kafka event pipeline** — producers/consumers, replay, idempotent consumers.
 - **Partition simulation** — induce a network partition; observe CAP trade-offs.
-- Underpins L7 (K8s) and L9 (multi-region). See [[Learning Paths & Projects#Project Roadmap]].
+- Underpins L7 (K8s) and L9 (multi-region). See [[Master Index — Technology Vault#Project Roadmap]].

@@ -4,22 +4,21 @@ tags: [consolidated]
 ---
 
 
-
 ## 0 - My Learning Philosophy
 
-I want to understand systems from first principles.  
-  
-I prefer understanding:  
-- why something exists  
-- what problem it solves  
-- what depends on it  
-  
-rather than memorizing technologies.  
-  
-My goal is to become capable of designing, securing, operating and troubleshooting modern systems from hardware to cloud architecture.  
-  
-I want notes to form a graph, not isolated silos.  
-  
+I want to understand systems from first principles.
+
+I prefer understanding:
+- why something exists
+- what problem it solves
+- what depends on it
+
+rather than memorizing technologies.
+
+My goal is to become capable of designing, securing, operating and troubleshooting modern systems from hardware to cloud architecture.
+
+I want notes to form a graph, not isolated silos.
+
 Projects are the ultimate proof of understanding.
 
 ---
@@ -84,13 +83,13 @@ It can represent:
 Transistors become:
 
 - AND
-    
+
 - OR
-    
+
 - NOT
-    
+
 - XOR
-    
+
 
 ---
 
@@ -99,11 +98,11 @@ Transistors become:
 Logic gates become:
 
 - Adders
-    
+
 - Multiplexers
-    
+
 - Registers
-    
+
 
 ---
 
@@ -112,11 +111,11 @@ Logic gates become:
 Digital circuits become:
 
 - ALU
-    
+
 - Registers
-    
+
 - Control Unit
-    
+
 
 ---
 
@@ -141,11 +140,11 @@ Programs need storage.
 This introduces:
 
 - RAM
-    
+
 - Cache
-    
+
 - Addressing
-    
+
 
 ---
 
@@ -154,13 +153,13 @@ This introduces:
 Now we need:
 
 - Instruction execution
-    
+
 - Memory hierarchy
-    
+
 - Interrupts
-    
+
 - DMA
-    
+
 
 ---
 
@@ -202,13 +201,13 @@ Shared devices
 Responsibilities:
 
 - Scheduling
-    
+
 - Memory management
-    
+
 - Device management
-    
+
 - Security
-    
+
 
 ---
 
@@ -245,20 +244,20 @@ Need persistent storage.
 Problems:
 
 - Naming
-    
+
 - Organization
-    
+
 - Permissions
-    
+
 
 Solutions:
 
 - ext4
-    
+
 - NTFS
-    
+
 - ZFS
-    
+
 
 ---
 
@@ -269,11 +268,11 @@ Need communication.
 Kernel introduces:
 
 - Sockets
-    
+
 - TCP/IP
-    
+
 - Routing
-    
+
 
 ---
 
@@ -284,16 +283,16 @@ Need isolation.
 Kernel features:
 
 - namespaces
-    
+
 - cgroups
-    
+
 
 become:
 
 - Docker
-    
+
 - Kubernetes
-    
+
 
 ---
 
@@ -353,11 +352,11 @@ Need unique identities.
 Examples:
 
 - User
-    
+
 - Device
-    
+
 - Service
-    
+
 
 ---
 
@@ -368,11 +367,11 @@ Need proof.
 Methods:
 
 - Password
-    
+
 - Certificate
-    
+
 - MFA
-    
+
 
 ---
 
@@ -383,9 +382,9 @@ Need permissions.
 Examples:
 
 - RBAC
-    
+
 - ABAC
-    
+
 
 ---
 
@@ -396,11 +395,11 @@ Need protection.
 Concepts:
 
 - Encryption
-    
+
 - Hashing
-    
+
 - Signatures
-    
+
 
 ---
 
@@ -417,11 +416,11 @@ Crypto
 becomes:
 
 - TLS
-    
+
 - VPN
-    
+
 - SSH
-    
+
 
 ---
 
@@ -430,11 +429,11 @@ becomes:
 Protect:
 
 - OS
-    
+
 - Kernel
-    
+
 - Services
-    
+
 
 ---
 
@@ -443,20 +442,20 @@ Protect:
 Protect:
 
 - Traffic
-    
+
 - Segments
-    
+
 - Boundaries
-    
+
 
 Tools:
 
 - Firewalls
-    
+
 - IDS
-    
+
 - IPS
-    
+
 
 ---
 
@@ -465,11 +464,11 @@ Tools:
 Protect:
 
 - APIs
-    
+
 - Websites
-    
+
 - Software
-    
+
 
 ---
 
@@ -484,11 +483,11 @@ How attackers break systems
 Topics:
 
 - Recon
-    
+
 - Enumeration
-    
+
 - Exploitation
-    
+
 
 ---
 
@@ -499,11 +498,11 @@ Need visibility.
 Sources:
 
 - Logs
-    
+
 - Packets
-    
+
 - Events
-    
+
 
 ---
 
@@ -514,11 +513,11 @@ Need response process.
 Questions:
 
 - What happened?
-    
+
 - How?
-    
+
 - Impact?
-    
+
 
 ---
 
@@ -581,11 +580,11 @@ Cloud begins in data centers.
 Need:
 
 - Power
-    
+
 - Cooling
-    
+
 - Hardware
-    
+
 
 ---
 
@@ -611,11 +610,11 @@ Virtualization.
 Examples:
 
 - ESXi
-    
+
 - KVM
-    
+
 - Hyper-V
-    
+
 
 They create VMs.
 
@@ -636,11 +635,11 @@ Many virtual servers
 Need:
 
 - Compute
-    
+
 - Storage
-    
+
 - Networking
-    
+
 
 at scale.
 
@@ -651,11 +650,11 @@ at scale.
 Providers build abstractions:
 
 - EC2
-    
+
 - S3
-    
+
 - RDS
-    
+
 
 ---
 
@@ -666,9 +665,9 @@ Manual cloud doesn't scale.
 Need:
 
 - APIs
-    
+
 - Infrastructure as Code
-    
+
 
 ---
 
@@ -697,11 +696,11 @@ Kubernetes.
 Need:
 
 - Governance
-    
+
 - Security
-    
+
 - Separation
-    
+
 
 ---
 
@@ -710,9 +709,9 @@ Need:
 Need:
 
 - High Availability
-    
+
 - Disaster Recovery
-    
+
 
 ---
 
@@ -721,20 +720,20 @@ Need:
 Need:
 
 - CDN
-    
+
 - Global DNS
-    
+
 - Edge Computing
-    
+
 
 Now you're building systems like:
 
 - Netflix
-    
+
 - AWS
-    
+
 - Google
-    
+
 
 ---
 
@@ -797,9 +796,9 @@ Need teams.
 Concepts:
 
 - Branches
-    
+
 - Pull Requests
-    
+
 
 ---
 
@@ -810,11 +809,11 @@ Need repeatability.
 Tools:
 
 - Maven
-    
+
 - Gradle
-    
+
 - npm
-    
+
 
 ---
 
@@ -857,9 +856,9 @@ Need reproducible infrastructure.
 Tools:
 
 - Terraform
-    
+
 - OpenTofu
-    
+
 
 ---
 
@@ -884,11 +883,11 @@ Orchestration.
 Need visibility.
 
 - Metrics
-    
+
 - Logs
-    
+
 - Traces
-    
+
 
 ---
 
@@ -899,9 +898,9 @@ Need reliability.
 Concepts:
 
 - SLO
-    
+
 - Error Budgets
-    
+
 
 ---
 
@@ -919,11 +918,11 @@ instead of infrastructure.
 Examples:
 
 - Internal Developer Platforms
-    
+
 - Golden Paths
-    
+
 - Self-Service Infrastructure
-    
+
 
 ---
 
@@ -1021,53 +1020,53 @@ Most IT professionals underestimate this.
 ### Arithmetic
 
 - Binary
-    
+
 - Decimal
-    
+
 - Hexadecimal
-    
+
 - Octal
-    
+
 
 ### Algebra
 
 - Functions
-    
+
 - Equations
-    
+
 - Boolean Algebra
-    
+
 
 ### Discrete Mathematics
 
 - Logic
-    
+
 - Sets
-    
+
 - Relations
-    
+
 - Graph Theory
-    
+
 
 ### Statistics
 
 - Probability
-    
+
 - Distributions
-    
+
 - Hypothesis Testing
-    
+
 
 ### Linear Algebra
 
 Needed for:
 
 - AI
-    
+
 - Graphics
-    
+
 - Data Science
-    
+
 
 ---
 
@@ -1080,13 +1079,13 @@ Needed for:
 Concepts:
 
 - Voltage
-    
+
 - Current
-    
+
 - Resistance
-    
+
 - Power
-    
+
 
 Relationship:
 
@@ -1099,20 +1098,20 @@ Relationship:
 Topics:
 
 - Magnetic Fields
-    
+
 - Electric Fields
-    
+
 - Induction
-    
+
 
 Applications:
 
 - Ethernet
-    
+
 - Wi-Fi
-    
+
 - Cellular
-    
+
 
 ---
 
@@ -1121,20 +1120,20 @@ Applications:
 Topics:
 
 - Frequency
-    
+
 - Amplitude
-    
+
 - Wavelength
-    
+
 - Phase
-    
+
 
 Applications:
 
 - RF
-    
+
 - Fiber optics
-    
+
 
 ---
 
@@ -1145,18 +1144,18 @@ People rarely study this.
 Topics:
 
 - Entropy
-    
+
 - Noise
-    
+
 - Channel Capacity
-    
+
 
 Applications:
 
 - Networking
-    
+
 - Compression
-    
+
 
 ---
 
@@ -1183,15 +1182,15 @@ Applications:
 #### Logic Gates
 
 - AND
-    
+
 - OR
-    
+
 - NOT
-    
+
 - XOR
-    
+
 - NAND
-    
+
 
 ---
 
@@ -1228,13 +1227,13 @@ How logic gates become processors.
 Topics:
 
 - ALU
-    
+
 - Registers
-    
+
 - Pipelines
-    
+
 - Branch Prediction
-    
+
 
 ---
 
@@ -1305,11 +1304,11 @@ This should become one of your largest sections.
 Topics:
 
 - PID
-    
+
 - Fork
-    
+
 - Exec
-    
+
 
 ---
 
@@ -1318,9 +1317,9 @@ Topics:
 Topics:
 
 - Concurrency
-    
+
 - Synchronization
-    
+
 
 ---
 
@@ -1329,9 +1328,9 @@ Topics:
 Topics:
 
 - Round Robin
-    
+
 - Priority Scheduling
-    
+
 
 ---
 
@@ -1340,11 +1339,11 @@ Topics:
 Topics:
 
 - Virtual Memory
-    
+
 - Paging
-    
+
 - Segmentation
-    
+
 
 ---
 
@@ -1365,13 +1364,13 @@ Topics:
 Topics:
 
 - cgroups
-    
+
 - namespaces
-    
+
 - procfs
-    
+
 - sysfs
-    
+
 
 ---
 
@@ -1380,11 +1379,11 @@ Topics:
 Topics:
 
 - Sockets
-    
+
 - Kernel Networking
-    
+
 - Packet Processing
-    
+
 
 ---
 
@@ -1393,11 +1392,11 @@ Topics:
 Topics:
 
 - SELinux
-    
+
 - AppArmor
-    
+
 - PAM
-    
+
 
 ---
 
@@ -1950,31 +1949,31 @@ Examples:
 #### Networking
 
 - Build an ISP simulation
-    
+
 - Configure BGP in a lab
-    
+
 
 #### Security
 
 - Build a SOC lab
-    
+
 - Deploy a SIEM
-    
+
 
 #### Cloud
 
 - Multi-account AWS landing zone
-    
+
 
 #### DevOps
 
 - GitOps Kubernetes platform
-    
+
 
 #### Architecture
 
 - Design a global SaaS platform
-    
+
 
 ---
 
@@ -2051,15 +2050,15 @@ It is a collection of interconnected autonomous systems.
 Concepts:
 
 - Autonomous Systems (AS)
-    
+
 - ASN Numbers
-    
+
 - Peering
-    
+
 - Transit
-    
+
 - IXPs
-    
+
 
 ---
 
@@ -2070,11 +2069,11 @@ Concepts:
 Responsible for:
 
 - IP allocation oversight
-    
+
 - Root DNS zone
-    
+
 - Protocol parameters
-    
+
 
 Think:
 
@@ -2089,9 +2088,9 @@ Global coordinator
 Coordinates:
 
 - Domain names
-    
+
 - DNS root infrastructure
-    
+
 
 Examples:
 
@@ -2158,18 +2157,18 @@ Can reach entire Internet without paying transit.
 Examples historically include:
 
 - Lumen
-    
+
 - NTT
-    
+
 - Telia
-    
+
 
 Characteristics:
 
 - Massive backbone networks
-    
+
 - Global presence
-    
+
 
 ---
 
@@ -2180,7 +2179,7 @@ Buys transit and peers.
 Examples:
 
 - Regional carriers
-    
+
 
 ---
 
@@ -2191,9 +2190,9 @@ Local providers.
 Examples:
 
 - Residential ISPs
-    
+
 - Local fiber providers
-    
+
 
 ---
 
@@ -2220,26 +2219,26 @@ Every major network becomes an AS.
 Examples:
 
 - Google
-    
+
 - Cloudflare
-    
+
 - AWS
-    
+
 - Orange
-    
+
 - Free
-    
+
 
 Concepts:
 
 - ASN
-    
+
 - Routing Policy
-    
+
 - Peering
-    
+
 - Transit
-    
+
 
 ---
 
@@ -2256,24 +2255,24 @@ Route traffic between autonomous systems.
 Topics:
 
 - eBGP
-    
+
 - iBGP
-    
+
 - Route Selection
-    
+
 - Route Advertisements
-    
+
 - AS Path
-    
+
 - Communities
-    
+
 
 Real incidents:
 
 - BGP Hijacking
-    
+
 - Route Leaks
-    
+
 
 ---
 
@@ -2284,11 +2283,11 @@ IXPs reduce costs and latency.
 Examples:
 
 - AMS-IX
-    
+
 - LINX
-    
+
 - DE-CIX
-    
+
 
 Purpose:
 
@@ -2338,9 +2337,9 @@ Own records.
 Examples:
 
 - Google DNS
-    
+
 - Cloudflare DNS
-    
+
 
 ---
 
@@ -2387,11 +2386,11 @@ Critical for cloud and web architecture.
 Examples:
 
 - Cloudflare
-    
+
 - Akamai
-    
+
 - Fastly
-    
+
 
 Purpose:
 
@@ -2974,12 +2973,12 @@ You already have enough structure to begin.
 The next step is:
 
 1. Build the vault skeleton.
-    
+
 2. Define dependencies and bridge topics.
-    
+
 3. Let Claude generate the framework.
-    
+
 4. Fill notes gradually as you study and build projects.
-    
+
 
 If I were designing this vault from scratch, I'd spend **80% of the effort on relationships and dependencies** and only **20% on individual technology notes**. That's what turns a collection of notes into a systems-thinking knowledge base.

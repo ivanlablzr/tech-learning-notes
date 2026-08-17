@@ -28,12 +28,12 @@ The arc: **version control → CI → CD → containers → Kubernetes → IaC (
 
 **Learning path:** Git internals & PR flow → CI → CD → containers (images/registries/runtimes) → **Kubernetes** (pods, services, ingress, config/secrets) → **IaC** (Terraform modules, state, plan/apply) → **GitOps** (ArgoCD/Flux) → observability (→ [[11 SRE]]).
 
-**Projects:** a CI/CD pipeline + containers (lint→test→build→push→deploy, L6) → a GitOps Kubernetes platform with observability (L7) → Terraform a cloud environment (L8). See [[Learning Paths & Projects#Project Roadmap]].
+**Projects:** a CI/CD pipeline + containers (lint→test→build→push→deploy, L6) → a GitOps Kubernetes platform with observability (L7) → Terraform a cloud environment (L8). See [[Master Index — Technology Vault#Project Roadmap]].
 
 ## Bridge topics it owns
 
 - **Kubernetes (Containers ↔ Distributed ↔ Cloud)** — declaratively run many containers reliably across many machines: a control plane + scheduler + **etcd** (Raft consensus) + a flat networking model. Multi-parent (containers + networking + [[12 Distributed Systems|consensus]] + [[04 Operating Systems|namespaces]]).
 - **Terraform / IaC (DevOps ↔ Cloud)** — reproducible, reviewable, versioned infrastructure; manages **state** and detects **drift**.
-- Links out to **containers** ([[04 Operating Systems]]) and **observability** ([[11 SRE]]). Full map in [[Knowledge Graph#Bridge Topic Map]].
+- Links out to **containers** ([[04 Operating Systems]]) and **observability** ([[11 SRE]]). Full map in [[Master Index — Technology Vault#Bridge Topic Map]].
 
-Related: [[07 Programming]] · [[04 Operating Systems]] · [[09 Cloud]] · [[11 SRE]] · [[12 Distributed Systems]] · [[Home]]
+Related: [[07 Programming]] · [[04 Operating Systems]] · [[09 Cloud]] · [[11 SRE]] · [[12 Distributed Systems]] · [[Master Index — Technology Vault]]

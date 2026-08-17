@@ -18,7 +18,7 @@ Where every domain converges: making whole-system trade-offs across reliability,
 > **Interactions:** quality attributes are the axes; patterns are the moves; ADRs record the why.
 
 ### Sub-areas
-- **Quality attributes / NFRs** — latency, throughput, availability, cost, security, evolvability (the missing axes from [[Analysis & Gaps#Gap Analysis]]).
+- **Quality attributes / NFRs** — latency, throughput, availability, cost, security, evolvability (the missing axes from [[Master Index — Technology Vault#Gap Analysis]]).
 - **Software architecture** — monolith → microservices → event-driven.
 - **Distributed systems core** — CAP, consistency, consensus, discovery.
 - **Cloud architecture** — multi-account/region/cloud, hybrid.
@@ -26,7 +26,7 @@ Where every domain converges: making whole-system trade-offs across reliability,
 - **Platform Engineering** — internal developer platforms, golden paths, self-service.
 - **Practices** — C4 diagrams, ADRs, capacity/cost modeling.
 
-See [[Knowledge Graph#Domain Dependency Graph]].
+See [[Master Index — Technology Vault#Domain Dependency Graph]].
 
 ### Related notes in this vault
 
@@ -48,7 +48,7 @@ Existing notes this domain connects to (wired into the knowledge graph):
 8. Documentation — C4 model, ADRs.
 9. Platform Engineering — IDPs, golden paths, self-service infrastructure.
 
-**Milestones:** write an ADR; design a global SaaS platform with diagrams + cost model (L10). See [[Learning Paths & Projects#Project Roadmap]].
+**Milestones:** write an ADR; design a global SaaS platform with diagrams + cost model (L10). See [[Master Index — Technology Vault#Project Roadmap]].
 
 ## Dependencies
 
@@ -62,13 +62,13 @@ Existing notes this domain connects to (wired into the knowledge graph):
 
 ## Bridge Topics
 
-Architecture *is* the meta-bridge — its notes mostly link out to canonical bridges in [[Knowledge Graph#Bridge Topic Map]]:
+Architecture *is* the meta-bridge — its notes mostly link out to canonical bridges in [[Master Index — Technology Vault#Bridge Topic Map]]:
 
 - **IAM / Zero Trust** — [[09 Cloud|Bridge Topics]] + [[06 Cybersecurity#Bridge Topics]].
 - **Consensus / replication** — [[12 Distributed Systems#Bridge Topics]].
 - **Observability** — [[11 SRE#Bridge Topics]].
 - **Kubernetes / IaC** — [[10 DevOps|Bridge Topics]].
-- **Quality attributes** — the lens that ties all bridges to business goals (see [[Analysis & Gaps#Gap Analysis]]).
+- **Quality attributes** — the lens that ties all bridges to business goals (see [[Master Index — Technology Vault#Gap Analysis]]).
 
 ## Projects
 
@@ -77,4 +77,4 @@ Architecture *is* the meta-bridge — its notes mostly link out to canonical bri
 - **Multi-region resilient system** (L9) — defend RTO/RPO choices.
 - **Global SaaS architecture** (L10) — the capstone: diagrams, ADRs, capacity & cost model, thin vertical slice.
 
-See [[Learning Paths & Projects#Project Roadmap]].
+See [[Master Index — Technology Vault#Project Roadmap]].

@@ -6,9 +6,12 @@ tags: [cybersecurity, redteam, pentesting, offensive]
 
 The same methodology applies to every target, but the *techniques* change with the attack surface. This is the catalog — what you attack, and how, on each kind of system. For the inbound section-anchor links from other notes, the aliases below (mobile, hardware, radio, physical, etc.) all point here.
 
+https://hacktricks.wiki/en/index.html
+
 ## Web applications
 
 The **OWASP Top 10** in practice — injection (`sqlmap`), cross-site scripting (XSS), **SSRF** into cloud metadata endpoints, **IDOR/BOLA** (accessing objects you shouldn't), authentication/JWT flaws, and file-upload webshells. The standard toolkit is **Burp Suite**. Full breakdown in [[Internet & Application Security#OWASP Top 10|OWASP Top 10]].
+https://github.com/swisskyrepo/PayloadsAllTheThings
 
 ## Operating systems & privilege escalation
 
@@ -34,4 +37,4 @@ Software-defined radio (**HackRF**, **RTL-SDR**) to capture, replay, jam, or ana
 
 Defeating the building: cloning badges, bypassing locks, tailgating through doors, and beating RFID entry systems. This overlaps heavily with social engineering and on-site red-team operations — see [[OpSec & Physical]].
 
-Related: [[Ethical Hacking|offensive overview]] · [[Engagement & Methodology]] · [[Credential Playbook]] · [[Internet & Application Security#OWASP Top 10|OWASP Top 10]] · [[OpSec & Physical]]
+Related: [[Ethical Hacking|offensive overview]] · [[Hacking Engagement & Methodology]] · [[Credential Playbook]] · [[Internet & Application Security#OWASP Top 10|OWASP Top 10]] · [[OpSec & Physical]]

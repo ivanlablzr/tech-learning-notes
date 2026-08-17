@@ -25,6 +25,8 @@ The platform is **Kali** or **ParrotOS**. The core kit, by job:
 
 ## 2. Digital forensics & anti-forensics
 
+> 📎 **Full depth → [[Digital Forensics & Anti-Forensics]]** (artifacts, tools, DFIR careers incl. Gendarmerie/IRCGN). This is the red-team summary.
+
 The flip side a red team must understand, because it's what gives you away.
 
 **Forensics** reconstructs what happened from the evidence a system leaves behind: disk artifacts (the MFT, prefetch, event logs, registry hives), **memory** (analyzed with Volatility), and network captures (PCAP) — all handled under a strict chain of custody with image hashes to prove nothing was altered. (See [[Security Operations & IR#3. Digital forensics & evidence|IR forensics]].)
@@ -58,4 +60,4 @@ None of the above is legal without authorization. Every country regulates comput
 | Children's data | [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) | — | [Investigatory Powers Act 2016](https://www.legislation.gov.uk/ukpga/2016/25/contents/enacted) | — | — |
 | Cross-border cooperation / data transfer | — | — | [RIPA 2000](https://www.legislation.gov.uk/ukpga/2000/23/contents) | [Digital Personal Data Protection Act](https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf) | [Cross-border Data Transfer Measures](https://www.mayerbrown.com/en/perspectives-events/publications/2022/07/china-s-security-assessments-for-cross-border-data-transfers-effective-september-2022) |
 
-Related: [[Ethical Hacking|offensive overview]] · [[Engagement & Methodology]] · [[Security Operations & IR#3. Digital forensics & evidence|IR forensics]] · [[Cybersecurity Foundations#5. Careers & certifications|careers & certs]] · [[Threats & Malware#6. APTs & MITRE ATT&CK|MITRE ATT&CK]]
+Related: [[Ethical Hacking|offensive overview]] · [[Hacking Engagement & Methodology]] · [[Security Operations & IR#3. Digital forensics & evidence|IR forensics]] · [[Cybersecurity Foundations#5. Careers & certifications|careers & certs]] · [[Threats & Malware#6. APTs & MITRE ATT&CK|MITRE ATT&CK]]

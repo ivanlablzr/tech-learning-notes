@@ -11,6 +11,7 @@ How independent machines communicate — from electromagnetic fields with antenn
 | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[Network Foundations]]                                             | What a network is, data/signaling, switching, cast types, topologies, protocols by layer                                                                                |
 | [[OSI Layers & Protocols]]                                          | The 7 layers, TCP/UDP, encapsulation, **DNS**, **HTTP**                                                                                                                 |
+| [[Ports, Interfaces & Sockets]]                                     | Physical connectors + logical/virtual ports, the **socket** (IP+port+protocol), **port states** & scanning (net/sec/offensive)                                          |
 | [[Network Devices]]                                                 | Nodes, NIC, MAC, **IP addressing & subnetting**                                                                                                                         |
 | [[Switching & Routing]]                                             | Switches/VLANs/STP, routers, routing protocols, NAT, **SDN**                                                                                                            |
 | [[Network Media & Links]]                                           | Copper/fiber cabling, RF, Wi-Fi, IoT wireless                                                                                                                           |
@@ -20,7 +21,9 @@ How independent machines communicate — from electromagnetic fields with antenn
 | [[Wireless & Cellular]]                                             | 2G–5G, SD-WAN                                                                                                                                                           |
 | [[Space & Satellite Networks]]                                      | Orbits, satellite comms, DTN, constellations                                                                                                                            |
 | [[Network Performance & Resilience]]                                | Bandwidth/latency/jitter, resilience (STP/FHRP/BGP), DR, RAID                                                                                                           |
-| [[IT Certifications]]                                               | The Cisco ladder + cross-domain cert map                                                                                                                                |
+| [[IT Certifications and Learning Resources per Domain]]                                               | The Cisco ladder + cross-domain cert map                                                                                                                                |
+| [[Network Software Engineering]]                                  | NetDevOps: automation, APIs, SDN, the network-software-engineer path                                                                                                  |
+| [[Network Observability & Monitoring — Tool Catalog]]             | Tool list with usage context: gNMIc, sFlow, BMP, Prometheus, Grafana, Zabbix, Zeek… mapped to the collect→store→visualise→alert pipeline                              |
 | [[AI-assisted Networking]]                                          | AI automated management, monitoring, and security of IT infrastructures                                                                                                 |
 
 ## The five views
@@ -32,7 +35,7 @@ Physics + OS → Networking → (Security, Cloud, Distributed Systems)
 
 **Learning path:** OSI/TCP-IP models → physical & data-link (Ethernet, switching, VLANs) → network layer (IP, subnetting, ARP, routing) → transport (TCP/UDP, ports) → application (HTTP, DNS, DHCP) → internet architecture (autonomous systems, peering/transit, IXPs) → **BGP** → DNS deep dive → CDN/wireless/datacenter fabrics → security, monitoring, automation.
 
-**Projects:** home networking lab (VLANs, routing, firewall) → DNS infrastructure (authoritative + recursive + DNSSEC) → **BGP/ISP simulation** (multi-AS in FRR, simulate a route leak) → dissect a TLS handshake in Wireshark. See [[Learning Paths & Projects#Project Roadmap]].
+**Projects:** home networking lab (VLANs, routing, firewall) → DNS infrastructure (authoritative + recursive + DNSSEC) → **BGP/ISP simulation** (multi-AS in FRR, simulate a route leak) → dissect a TLS handshake in Wireshark. See [[Master Index — Technology Vault#Project Roadmap]].
 
 ## Bridge topics it owns
 
@@ -40,6 +43,6 @@ Physics + OS → Networking → (Security, Cloud, Distributed Systems)
 - **DNS** (Networking ↔ Applications ↔ Governance ↔ Security) — names → addresses; resolution chain; DNSSEC.
 - **BGP** (ISP Infrastructure ↔ Internet) — reachability exchange between autonomous systems; multi-parent (IP + AS + TCP).
 
-Also links to **TLS** ([[06 Cybersecurity]]) and **load balancing** ([[09 Cloud]]). Full map in [[Knowledge Graph#Bridge Topic Map]].
+Also links to **TLS** ([[06 Cybersecurity]]) and **load balancing** ([[09 Cloud]]). Full map in [[Master Index — Technology Vault#Bridge Topic Map]].
 
-Related: [[01 Physics]] · [[04 Operating Systems]] · [[06 Cybersecurity]] · [[09 Cloud]] · [[Home]]
+Related: [[01 Physics]] · [[04 Operating Systems]] · [[06 Cybersecurity]] · [[09 Cloud]] · [[Master Index — Technology Vault]]
